@@ -1,1 +1,3 @@
 # independentrecords.cz
+
+ZADÁNÍ WEBU:
