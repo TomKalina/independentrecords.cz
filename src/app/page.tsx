@@ -55,6 +55,7 @@ export default function Home() {
             </div>
           </nav>
         </header>
+        <div className="bg-cover bg-center h-screen" style={{backgroundImage: "url('banan.jpg')"}}>
         <article
           id="pribeh"
           className="bg-gray-700 text-red-100 text-center bg-origin-content p-6 m-4"
@@ -125,7 +126,8 @@ export default function Home() {
               <div>Otevírací doba</div>
             </div>
           </section>
-        </article>
+      </article>
+      </div>
       </body>
     </html>
   );
