@@ -24,7 +24,7 @@ export default function Home() {
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
               <div className="text-sm lg:flex-grow">
                 <a
-                  href="#responsive-header"
+                  href="#pribeh"
                   className="block mt-4 lg:inline-block lg:mt-0  text-red-700 hover:text-white tracking-wide mr-4 font-semibold"
                 >
                   Náš příběh
@@ -42,7 +42,7 @@ export default function Home() {
                   Rezervační systém
                 </a>
                 <a
-                  href="#responsive-header"
+                  href="#kontakty"
                   className="block mt-4 lg:inline-block lg:mt-0  text-white hover:text-red-700 tracking-wide mr-4 font-semibold"
                 >
                   Kontakt
@@ -55,7 +55,10 @@ export default function Home() {
             </div>
           </nav>
         </header>
-        <article className="bg-gray-700 text-red-100 text-center bg-origin-content p-6 m-4">
+        <article
+          id="pribeh"
+          className="bg-gray-700 text-red-100 text-center bg-origin-content p-6 m-4"
+        >
           <header>
             <h1 className="font-semibold text-center text-red-100 text-xl tracking-wide">
               Náš příběh
@@ -102,7 +105,10 @@ export default function Home() {
             </p>
           </section>
         </article>
-        <article className="bg-gray-700 text-red-100 bg-origin-content p-6 m-4">
+        <article
+          id="kontakty"
+          className="bg-gray-700 text-red-100 bg-origin-content p-6 m-4"
+        >
           <header>
             <h1 className="font-semibold text-center text-red-100 text-xl tracking-wide">
               Kontakt
