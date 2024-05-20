@@ -4,8 +4,8 @@ export function Section({
   id,
 }: {
   children: React.ReactNode;
-  title: string;
-  id: string;
+  title?: string;
+  id?: string;
 }) {
   return (
     <section id={id} className="bg-white py-16 px-4">

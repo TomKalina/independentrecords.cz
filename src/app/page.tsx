@@ -55,6 +55,27 @@ export default function Home() {
         <br></br>
         <p>Děkujeme všem za podporu.</p>
       </SectionWithImage>
+      <Section>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8">
+          <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
+            <img
+              src="https://spacema-dev.com/elevate/assets/images/team/1.jpg"
+              alt="Team Member 1"
+              className="w-full rounded-full mb-4"
+            />
+            <h3 className="text-xl font-semibold mb-2">Ondřej Bouška</h3>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
+            <img
+              src="https://spacema-dev.com/elevate/assets/images/team/2.jpg"
+              alt="Team Member 2"
+              className="w-full rounded-full mb-4"
+            />
+            <h3 className="text-xl font-semibold mb-2">Jaroslav Kučera</h3>
+          </div>
+        </div>
+      </Section>
       <section id={"sluzby"} className="py-16">
         <div className="text-center mb-12 lg:mb-20">
           <h2 className="text-5xl font-bold mb-4">
