@@ -16,7 +16,7 @@ export default function SectionWithImage({
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
             <h2 className="text-5xl font-bold mb-4">{title}</h2>
-            <p className="my-7">{children}</p>
+            {children}
           </div>
 
           <div className="md:w-1/2">

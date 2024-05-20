@@ -2,6 +2,7 @@ import Box from "./components/Box";
 import { Section } from "./components/Section";
 import SectionWithImage from "./components/SectionWithImage";
 import Vybaveni from "./subPages/Vybaveni";
+import Map from "./components/Map";
 
 export default function Home() {
   return (
@@ -54,7 +55,6 @@ export default function Home() {
         <br></br>
         <p>Děkujeme všem za podporu.</p>
       </SectionWithImage>
-
       <section id={"sluzby"} className="py-16">
         <div className="text-center mb-12 lg:mb-20">
           <h2 className="text-5xl font-bold mb-4">
@@ -81,15 +81,7 @@ export default function Home() {
       </section>
       <Vybaveni />
       <Section id="kontakty" title="Kontakt">
-        <div className="flex justify-between">
-          <div>
-            <p>Kde nás najdete?</p>
-            <p>Skalka 1858</p>
-            <p>Česká Třebová</p>
-            <p>560 02</p>
-          </div>
-          <div>Otevírací doba</div>
-        </div>
+        <Map />
       </Section>
     </>
   );
