@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Menu from "./components/menu";
 import MobileMenu from "./components/mobileMenu";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,15 +26,15 @@ export default function RootLayout({
         <title>independentrecords.cz</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
           rel="stylesheet"
         />
 
         <link rel="stylesheet" href="assets/css/styles.css" />
-        <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css" />
-        <link rel="stylesheet" href="assets/css/custom.css" />
+        {/* <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css" /> */}
+        {/* <link rel="stylesheet" href="assets/css/custom.css" /> */}
       </head>
 
       <body>
@@ -86,71 +87,9 @@ export default function RootLayout({
         </header>
         {/* Mobile menu */}
         {/* <MobileMenu /> */}
-        {/* <div
-          className="bg-repeat bg-center"
-          style={{ backgroundImage: "url('studio.jpg')" }}
-        ></div> */}
-
         {children}
 
-        <footer className="py-10">
-          <ul className="flex justify-center mt-10 space-x-8">
-            <li>
-              <a href="#">
-                <img
-                  src="assets/images/social_icons/instagram.png"
-                  alt="Instagram"
-                  className="h-10 w-10"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img
-                  src="assets/images/social_icons/youtube.png"
-                  alt="YouTube"
-                  className="h-10 w-10"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img
-                  src="assets/images/social_icons/facebook.png"
-                  alt="Facebook"
-                  className="h-10 w-10"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img
-                  src="assets/images/social_icons/twitter.png"
-                  alt="Twitter"
-                  className="h-10 w-10"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img
-                  src="assets/images/social_icons/linkedin.png"
-                  alt="LinkedIn"
-                  className="h-10 w-10"
-                />
-              </a>
-            </li>
-          </ul>
-          <span className="block text-center text-gray-txt font-semibold mt-10 ">
-            © {new Date().getFullYear()}. Developerd by{" "}
-            <a href="https://spacema-dev.com" className="text-primary">
-              Tom & Marky
-            </a>
-          </span>
-        </footer>
-
-        {/* <script src="node_modules/swiper/swiper-bundle.js"></script> */}
-        {/* <script src="assets/js/script.js"></script> */}
+        <Footer />
       </body>
     </html>
   );
