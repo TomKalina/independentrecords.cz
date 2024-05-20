@@ -14,7 +14,7 @@ export default function WeAre(props: Props) {
   const isVisible2 = useIsVisible(ref1);
 
   return (
-    <Section>
+    <Section animate={false}>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8">
         <div
           ref={ref1}

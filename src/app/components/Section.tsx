@@ -23,7 +23,7 @@ export function Section({
       id={id}
       className={classNames(
         "bg-white py-16 px-4",
-        animate && isVisible1 ? animate : "opacity-0"
+        animate && (isVisible1 ? animate : "opacity-0")
       )}
       ref={ref1}
     >
