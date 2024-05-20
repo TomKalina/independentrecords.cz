@@ -3,6 +3,7 @@ import { Section } from "./components/Section";
 import SectionWithImage from "./components/SectionWithImage";
 import Vybaveni from "./subPages/Vybaveni";
 import Map from "./components/Map";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -58,19 +59,23 @@ export default function Home() {
       <Section>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8">
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <img
-              src="https://spacema-dev.com/elevate/assets/images/team/1.jpg"
+            <Image
+              src="/assets/images/team/1.jpg"
               alt="Team Member 1"
               className="w-full rounded-full mb-4"
+              width={300}
+              height={300}
             />
             <h3 className="text-xl font-semibold mb-2">Ondřej Bouška</h3>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6 my-6 text-center">
-            <img
-              src="https://spacema-dev.com/elevate/assets/images/team/2.jpg"
+            <Image
+              src="/assets/images/team/2.jpg"
               alt="Team Member 2"
               className="w-full rounded-full mb-4"
+              width={300}
+              height={300}
             />
             <h3 className="text-xl font-semibold mb-2">Jaroslav Kučera</h3>
           </div>
