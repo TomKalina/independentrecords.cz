@@ -6,7 +6,6 @@ interface Props {}
 export default function Story(props: Props) {
   return (
     <SectionWithImage id="pribeh" title="Náš příběh">
-      <br></br>
       <p>
         Independent Records - nejen nahrávací studio, a nejen pro hudebníky.
         Žijeme hudbou.
