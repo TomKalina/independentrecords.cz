@@ -1,5 +1,8 @@
+"use client";
 import * as React from "react";
-
+import { useIsVisible } from "../hooks/useIsVisible";
+import Image from "next/image";
+import classNames from "classnames";
 function MyLi({
   number,
   children,
@@ -27,14 +30,26 @@ function MyLi({
 
 interface Props {}
 
-export default function Vybaveni(props: Props) {
+export default function Equipment(props: Props) {
+  const ref1 = React.useRef<HTMLDivElement>(null);
+  const isVisible1 = useIsVisible(ref1);
+
   return (
     <>
       <section id="vybaveni" className="py-16 bg-gray-dark">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+        <div
+          ref={ref1}
+          className={classNames(
+            `
+        container mx-auto flex flex-col md:flex-row items-center justify-between`,
+            isVisible1 ? "animate-fade-right" : "opacity-0"
+          )}
+        >
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <img
-              src="/assets//images/2.jpg"
+            <Image
+              src="/assets/images/2.jpg"
+              width={500}
+              height={500}
               alt="Image"
               className="w-full md:mx-auto md:max-w-md rounded-lg bg-gray-100 shadow-lg"
             />
