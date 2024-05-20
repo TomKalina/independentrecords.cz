@@ -89,12 +89,12 @@ export default function Home() {
         </div>
         <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
           <div className="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-4">
-            <Box title="Nahrávací den" text="" link="Read More" />
-            <Box title="Mixing" text="" link="Read More" />
-            <Box title="Mastering" text="" link="Read More" />
-            <Box title="Produkční služby" text="" link="Read More" />
+            <Box title="Nahrávací den" text="" />
+            <Box title="Mixing" text="" />
+            <Box title="Mastering" text="" />
+            <Box title="Produkční služby" text="" />
           </div>
-          <p>
+          <p className="text-center">
             *Nacenění služeb studia aktuálně probíhá - pro konkrétní poptávku
             nás prosím kontaktujte e-mailem nebo telefoanicky.*
           </p>
