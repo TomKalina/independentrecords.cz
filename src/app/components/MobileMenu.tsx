@@ -2,7 +2,7 @@ import * as React from "react";
 
 interface Props {}
 
-export default function mobileMenu(props: Props) {
+export default function MobileMenu(props: Props) {
   return (
     <nav
       id="mobile-menu-placeholder"

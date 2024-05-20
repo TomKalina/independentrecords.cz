@@ -1,11 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import Menu from "./components/Menu";
-import MobileMenu from "./components/MobileMenu";
 import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Independent Records",
@@ -33,7 +32,6 @@ export default function RootLayout({
         />
 
         <link rel="stylesheet" href="assets/css/styles.css" />
-        {/* <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css" /> */}
         {/* <link rel="stylesheet" href="assets/css/custom.css" /> */}
       </head>
 
