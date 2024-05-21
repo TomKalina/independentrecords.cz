@@ -15,7 +15,16 @@ export default function WeAre(props: Props) {
 
   return (
     <Section animate={false}>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8">
+      <div
+        className={`
+      grid
+      sm:grid-cols-1
+      md:grid-cols-1
+      lg:grid-cols-2
+      xl:grid-cols-2
+      2xl:grid-cols-2
+      gap-8`}
+      >
         <div
           ref={ref1}
           className={`bg-white rounded-lg shadow-md p-6 my-6 text-center `}
