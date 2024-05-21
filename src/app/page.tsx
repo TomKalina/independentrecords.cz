@@ -6,10 +6,12 @@ import Map from "./components/Map";
 import WeAre from "./subPages/WeAre";
 import Services from "./subPages/Services";
 import Story from "./subPages/Story";
+import Slideshow from "./subPages/Slideshow";
 
 export default function Home() {
   return (
     <>
+      <Slideshow />
       <Story />
       <WeAre />
       <Services />
