@@ -31,7 +31,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="assets/css/styles.css" />
+        {/* <link rel="stylesheet" href="/assets/css/styles.css" /> */}
         {/* <link rel="stylesheet" href="assets/css/custom.css" /> */}
       </head>
 
@@ -39,21 +39,23 @@ export default function RootLayout({
         <header className="bg-gray-dark sticky top-0 z-50 ">
           <div className="container mx-auto flex justify-between items-center py-4">
             {/* Left section: Logo */}
-            {/* <div className="flex items-center">
-              <img
-                src="assets/images/logo-blue.png"
-                alt="Logo"
-                className="h-14 w-auto mr-4"
-              />
-            </div> */}
-            <div className="flex items-center flex-shrink-0 m-6">
+            <div className="flex items-center">
+              <a href="#">
+                <img
+                  src="/logo/dlouhe-modra.svg"
+                  alt="Logo"
+                  className="animate-jump-in h-14 w-auto mr-4"
+                />
+              </a>
+            </div>
+            {/* <div className="flex items-center flex-shrink-0 m-6">
               <a
                 href="#"
                 className="animate-jump-in font-semibold text-2xl tracking-tight font-mono bg-clip-text text-transparent bg-gradient-to-r from-indigo-50 to-indigo-700"
               >
                 independentrecords.cz
               </a>
-            </div>
+            </div> */}
             {/* Hamburger menu (for mobile) */}
             {/* <div className="flex md:hidden">
               <button id="hamburger" className="text-white focus:outline-none">
