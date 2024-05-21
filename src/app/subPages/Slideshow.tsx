@@ -49,7 +49,7 @@ const Slideshow = () => {
           style={{
             backgroundImage: `url(${image})`,
             backgroundSize: `${zoom}%`,
-            backgroundPosition: "center",
+            backgroundPosition: "top",
             backgroundRepeat: "no-repeat",
             transition:
               "background-size 0.5s ease-in-out, opacity 1s ease-in-out",
