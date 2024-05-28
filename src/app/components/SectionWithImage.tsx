@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 
 export default function SectionWithImage({
   children,
@@ -18,10 +19,12 @@ export default function SectionWithImage({
         </div>
 
         <div className="md:w-1/2">
-          <img
-            src="/assets/images/1.jpg"
+          <Image
+            src="/ai/6.jpeg"
             alt="Image"
             className="w-full md:mx-auto md:max-w-md rounded-lg bg-gray-100 shadow-lg"
+            width={500}
+            height={500}
           />
         </div>
       </div>

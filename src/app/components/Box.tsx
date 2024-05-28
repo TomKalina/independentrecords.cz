@@ -1,19 +1,23 @@
 import * as React from "react";
+import Image from "next/image";
 
 interface Props {
   title: string;
   //   children: React.ReactNode;
   text: string;
   link?: string;
+  src?: string;
 }
 
-export default function Box({ title, text, link }: Props) {
+export default function Box({ title, text, link, src = "/ai/1.jpeg" }: Props) {
   return (
     <div className="p-6">
-      <img
+      <Image
+        src={src}
+        width={500}
+        height={500}
         className="object-cover object-center w-full mb-8 rounded-xl"
-        src="/assets/images/blog/blog-3.jpg"
-        alt="blog"
+        alt="box"
       />
       <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-dark lg:text-3xl">
         {title}
