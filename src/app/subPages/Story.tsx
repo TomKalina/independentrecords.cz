@@ -43,7 +43,7 @@ export default function Story(props: Props) {
         <a
           href="https://p-pink.cz/"
           target="_blank"
-          className="text-pink-500 hover:text-sky-100"
+          className="text- hover:text-sky-100"
         >
           P-PINK
         </a>{" "}

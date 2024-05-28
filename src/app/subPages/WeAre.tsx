@@ -17,45 +17,45 @@ export default function WeAre(props: Props) {
     <Section animate={false}>
       <div
         className={`
+      2xl:grid-cols-2
       grid
+      gap-8
       sm:grid-cols-1
       md:grid-cols-1
       lg:grid-cols-2
-      xl:grid-cols-2
-      2xl:grid-cols-2
-      gap-8`}
+      xl:grid-cols-2`}
       >
         <div
           ref={ref1}
-          className={`bg-white rounded-lg shadow-md p-6 my-6 text-center `}
+          className={`my-6 rounded-lg bg-white p-6 text-center shadow-md `}
         >
           <Image
             src="/assets/images/team/1.jpg"
             alt="Team Member 1"
-            className={`w-full rounded-full mb-4  ${
+            className={`mb-4 w-full rounded-full  ${
               isVisible1 ? "animate-fade-right" : "opacity-0"
             }`}
             width={300}
             height={300}
             loading="lazy"
           />
-          <h3 className="text-xl font-semibold mb-2">Ondřej Bouška</h3>
+          <h3 className="mb-2 text-xl font-semibold">Ondřej Bouška</h3>
         </div>
         <div
           ref={ref2}
-          className="bg-white rounded-lg shadow-md p-6 my-6 text-center"
+          className="my-6 rounded-lg bg-white p-6 text-center shadow-md"
         >
           <Image
             src="/assets/images/team/2.jpg"
             alt="Team Member 2"
-            className={`w-full rounded-full mb-4  ${
+            className={`mb-4 w-full rounded-full  ${
               isVisible2 ? "animate-fade-left" : "opacity-0"
             }`}
             width={300}
             height={300}
             loading="lazy"
           />
-          <h3 className="text-xl font-semibold mb-2">Jaroslav Kučera</h3>
+          <h3 className="mb-2 text-xl font-semibold">Jaroslav Kučera</h3>
         </div>
       </div>
     </Section>

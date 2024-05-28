@@ -6,9 +6,9 @@ export default function page(props: Props) {
   return (
     <>
       <section id="home" className="bg-white py-16">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-            <h2 className="text-5xl font-bold mb-4">
+        <div className="container mx-auto flex flex-col items-center justify-between md:flex-row">
+          <div className="mb-8 text-center md:mb-0 md:w-1/2 md:text-left">
+            <h2 className="mb-4 text-5xl font-bold">
               Free <span className="text-primary">Tailwind</span> Template
             </h2>
             <p className="my-7">
@@ -31,7 +31,7 @@ export default function page(props: Props) {
             <div className="space-x-2">
               <a
                 href="/"
-                className="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block"
+                className="inline-block rounded-full bg-primary px-4 py-2 font-semibold text-white hover:bg-secondary"
               >
                 Download
               </a>
@@ -42,23 +42,23 @@ export default function page(props: Props) {
             <img
               src="/assets/images/1.jpg"
               alt="Image"
-              className="w-full md:mx-auto md:max-w-md rounded-lg bg-gray-100 shadow-lg"
+              className="bg-gray-100 w-full rounded-lg shadow-lg md:mx-auto md:max-w-md"
             />
           </div>
         </div>
       </section>
-      <section id="aboutus" className="py-16 bg-gray-dark">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-1/2 mb-8 md:mb-0">
+      <section id="aboutus" className="bg-gray-dark py-16">
+        <div className="container mx-auto flex flex-col items-center justify-between md:flex-row">
+          <div className="mb-8 md:mb-0 md:w-1/2">
             <img
               src="/assets//images/2.jpg"
               alt="Image"
-              className="w-full md:mx-auto md:max-w-md rounded-lg bg-gray-100 shadow-lg"
+              className="bg-gray-100 w-full rounded-lg shadow-lg md:mx-auto md:max-w-md"
             />
           </div>
 
           <div className="md:w-1/2">
-            <h2 className="text-5xl font-bold mb-4 text-white">
+            <h2 className="mb-4 text-5xl font-bold text-white">
               Our <span className="text-primary">Process</span>
             </h2>
             <p className="my-5 text-white">
@@ -66,9 +66,9 @@ export default function page(props: Props) {
               success of every project. Our approach is tailored to meet your
               unique requirements and deliver outstanding outcomes consistently.
             </p>
-            <ol className="mt-5 mb-10 list-outside">
-              <li className="flex items-center mb-4">
-                <strong className="bg-primary text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">
+            <ol className="mb-10 mt-5 list-outside">
+              <li className="mb-4 flex items-center">
+                <strong className="mr-3 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-lg font-semibold text-white">
                   1
                 </strong>
                 <span className="text-white">
@@ -76,8 +76,8 @@ export default function page(props: Props) {
                   goals.
                 </span>
               </li>
-              <li className="flex items-center mb-4">
-                <strong className="bg-primary text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">
+              <li className="mb-4 flex items-center">
+                <strong className="mr-3 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-lg font-semibold text-white">
                   2
                 </strong>
                 <span className="text-white">
@@ -85,8 +85,8 @@ export default function page(props: Props) {
                   strategy.
                 </span>
               </li>
-              <li className="flex items-center mb-4">
-                <strong className="bg-primary text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">
+              <li className="mb-4 flex items-center">
+                <strong className="mr-3 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-lg font-semibold text-white">
                   3
                 </strong>
                 <span className="text-white">
@@ -94,8 +94,8 @@ export default function page(props: Props) {
                   throughout the process.
                 </span>
               </li>
-              <li className="flex items-center mb-4">
-                <strong className="bg-primary text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">
+              <li className="mb-4 flex items-center">
+                <strong className="mr-3 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-lg font-semibold text-white">
                   4
                 </strong>
                 <span className="text-white">
@@ -103,8 +103,8 @@ export default function page(props: Props) {
                   involved.
                 </span>
               </li>
-              <li className="flex items-center mb-4">
-                <strong className="bg-primary text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">
+              <li className="mb-4 flex items-center">
+                <strong className="mr-3 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-lg font-semibold text-white">
                   5
                 </strong>
                 <span className="text-white">
@@ -113,16 +113,16 @@ export default function page(props: Props) {
                 </span>
               </li>
             </ol>
-            <button className="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full">
+            <button className="rounded-full bg-primary px-4 py-2 font-semibold text-white hover:bg-secondary">
               Get Started
             </button>
           </div>
         </div>
       </section>
-      <section id="clients" className="bg-white py-16 px-4">
-        <div className="container mx-auto max-w-screen-xl px-4 testimonials">
-          <div className="text-center mb-12 lg:mb-20">
-            <h2 className="text-5xl font-bold mb-4">
+      <section id="clients" className="bg-white px-4 py-16">
+        <div className="testimonials container mx-auto max-w-screen-xl px-4">
+          <div className="mb-12 text-center lg:mb-20">
+            <h2 className="mb-4 text-5xl font-bold">
               What <span className="text-primary">Our Clients</span> Say
             </h2>
             <p className="my-7">
@@ -132,23 +132,23 @@ export default function page(props: Props) {
         </div>
       </section>
       <section className="py-16">
-        <div className="text-center mb-12 lg:mb-20">
-          <h2 className="text-5xl font-bold mb-4">
+        <div className="mb-12 text-center lg:mb-20">
+          <h2 className="mb-4 text-5xl font-bold">
             Discover <span className="text-primary">Our</span> Services
           </h2>
           <p className="my-7">
             Explore our team, portfolio, and learn more about us
           </p>
         </div>
-        <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
-          <div className="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
+        <div className="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
+          <div className="mx-auto grid w-full grid-cols-1 gap-6 lg:grid-cols-3">
             <div className="p-6">
               <img
-                className="object-cover object-center w-full mb-8 rounded-xl"
+                className="mb-8 w-full rounded-xl object-cover object-center"
                 src="/assets/images/blog/blog-1.jpg"
                 alt="blog"
               />
-              <h2 className="mb-8 text-xs font-semibold tracking-widest text-primary uppercase">
+              <h2 className="mb-8 text-xs font-semibold uppercase tracking-widest text-primary">
                 Discover Our Story
               </h2>
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-dark lg:text-3xl">
@@ -162,7 +162,7 @@ export default function page(props: Props) {
               <div className="mt-4">
                 <a
                   href="#"
-                  className="inline-flex items-center mt-4 font-semibold text-primary lg:mb-0 hover:text-gray-dark"
+                  className="mt-4 inline-flex items-center font-semibold text-primary hover:text-gray-dark lg:mb-0"
                   title="Read Our Story"
                 >
                   {" "}
@@ -172,11 +172,11 @@ export default function page(props: Props) {
             </div>
             <div className="p-6">
               <img
-                className="object-cover object-center w-full mb-8 rounded-xl"
+                className="mb-8 w-full rounded-xl object-cover object-center"
                 src="/assets/images/blog/blog-2.jpg"
                 alt="blog"
               />
-              <h2 className="mb-8 text-xs font-semibold tracking-widest text-primary uppercase">
+              <h2 className="mb-8 text-xs font-semibold uppercase tracking-widest text-primary">
                 Our Portfolio
               </h2>
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-dark lg:text-3xl">
@@ -190,7 +190,7 @@ export default function page(props: Props) {
               <div className="mt-4">
                 <a
                   href="#"
-                  className="inline-flex items-center mt-4 font-semibold text-primary lg:mb-0 hover:text-gray-dark"
+                  className="mt-4 inline-flex items-center font-semibold text-primary hover:text-gray-dark lg:mb-0"
                   title="Explore Our Portfolio"
                 >
                   {" "}
@@ -200,11 +200,11 @@ export default function page(props: Props) {
             </div>
             <div className="p-6">
               <img
-                className="object-cover object-center w-full mb-8 rounded-xl"
+                className="mb-8 w-full rounded-xl object-cover object-center"
                 src="/assets/images/blog/blog-3.jpg"
                 alt="blog"
               />
-              <h2 className="mb-8 text-xs font-semibold tracking-widest text-primary uppercase">
+              <h2 className="mb-8 text-xs font-semibold uppercase tracking-widest text-primary">
                 Meet Our Team
               </h2>
               <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-dark lg:text-3xl">
@@ -218,7 +218,7 @@ export default function page(props: Props) {
               <div className="mt-4">
                 <a
                   href="#"
-                  className="inline-flex items-center mt-4 font-semibold text-primary lg:mb-0 hover:text-gray-dark"
+                  className="mt-4 inline-flex items-center font-semibold text-primary hover:text-gray-dark lg:mb-0"
                   title="Explore Our Team"
                 >
                   {" "}
@@ -230,8 +230,8 @@ export default function page(props: Props) {
         </div>
       </section>
       <section id="subscribe" className="bg-primary py-4">
-        <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-          <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 sm:p-8 lg:flex-row lg:justify-between">
+        <div className="max-w-screen-2xl mx-auto px-4 md:px-8">
+          <div className="bg-gray-100 flex flex-col items-center rounded-lg p-4 sm:p-8 lg:flex-row lg:justify-between">
             <div className="mb-4 sm:mb-8 lg:mb-0">
               <h2 className="text-center text-xl font-bold text-white sm:text-2xl lg:text-left lg:text-3xl">
                 Stay Updated
@@ -240,13 +240,13 @@ export default function page(props: Props) {
                 Subscribe to our newsletter
               </p>
             </div>
-            <div className="flex flex-col items-center w-96 lg:items-end">
+            <div className="flex w-96 flex-col items-center lg:items-end">
               <form className="flex w-full gap-2">
                 <input
                   placeholder="Enter your email address"
                   className="bg-gray-white w-full flex-1 rounded px-3 py-2 text-gray-txt placeholder-gray-dark focus:outline-none"
                 />
-                <button className="inline-block rounded bg-white px-8 py-2 text-center text-sm font-semibold text-primary  md:text-base hover:text-secondary">
+                <button className="inline-block rounded bg-white px-8 py-2 text-center text-sm font-semibold text-primary  hover:text-secondary md:text-base">
                   Subscribe
                 </button>
               </form>

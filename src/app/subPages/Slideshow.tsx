@@ -40,11 +40,11 @@ const Slideshow = () => {
 
   return (
     <>
-      <div className="relative w-screen h-screen overflow-hidden">
+      <div className="relative h-screen w-screen overflow-hidden">
         {images.map((image, index) => (
           <div
             key={index}
-            className={`absolute top-0 left-0 w-full h-full
+            className={`absolute left-0 top-0 h-full w-full
             ${index === currentSlide ? "opacity-100" : "opacity-0"}
             `}
             style={{

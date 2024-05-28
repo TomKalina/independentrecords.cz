@@ -22,14 +22,14 @@ export function Section({
     <section
       id={id}
       className={classNames(
-        "bg-white py-16 px-4",
-        animate && (isVisible1 ? animate : "opacity-0")
+        "bg-white px-4 py-16",
+        animate && (isVisible1 ? animate : "opacity-0"),
       )}
       ref={ref1}
     >
-      <div className="container mx-auto max-w-screen-xl px-4 testimonials">
-        <div className="text-center mb-12 lg:mb-20">
-          <h2 className="text-5xl font-bold mb-4">{title}</h2>
+      <div className="testimonials container mx-auto max-w-screen-xl px-4">
+        <div className="mb-12 text-center lg:mb-20">
+          <h2 className="mb-4 text-5xl font-bold">{title}</h2>
           {children}
         </div>
       </div>

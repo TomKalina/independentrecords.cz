@@ -1,71 +1,71 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const hamburgerBtn = document.getElementById('hamburger');
-  const mobileMenu = document.querySelector('.mobile-menu');
+  const hamburgerBtn = document.getElementById("hamburger");
+  const mobileMenu = document.querySelector(".mobile-menu");
 
-  hamburgerBtn.addEventListener('click', function () {
-    mobileMenu.classList.toggle('hidden');
+  hamburgerBtn.addEventListener("click", function () {
+    mobileMenu.classList.toggle("hidden");
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const filterButtons = document.querySelectorAll(".filter-button");
 
-document.addEventListener('DOMContentLoaded', function() {
-  const filterButtons = document.querySelectorAll('.filter-button');
-
-  filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
       const filterValue = button.textContent.toLowerCase();
-  
-      const portfolioItems = document.querySelectorAll('.portfolio-item');
-  
-      portfolioItems.forEach(item => {
-        const itemCategories = item.querySelector('span').textContent.toLowerCase();
-  
-        if (filterValue === 'all' || itemCategories.includes(filterValue)) {
-          item.classList.remove('hidden');
+
+      const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+      portfolioItems.forEach((item) => {
+        const itemCategories = item
+          .querySelector("span")
+          .textContent.toLowerCase();
+
+        if (filterValue === "all" || itemCategories.includes(filterValue)) {
+          item.classList.remove("hidden");
         } else {
-          item.classList.add('hidden');
+          item.classList.add("hidden");
         }
       });
     });
   });
-  
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
 
-      const targetId = this.getAttribute('href');
-      const targetSection = document.querySelector(targetId);
-      if (targetSection) {
-          const offset = 88;
-          const targetPosition = targetSection.getBoundingClientRect().top + window.scrollY - offset;
+    const targetId = this.getAttribute("href");
+    const targetSection = document.querySelector(targetId);
+    if (targetSection) {
+      const offset = 88;
+      const targetPosition =
+        targetSection.getBoundingClientRect().top + window.scrollY - offset;
 
-          window.scrollTo({
-              top: targetPosition,
-              behavior: 'smooth'
-          });
-      }
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "smooth",
+      });
+    }
   });
 });
 
-
-if (typeof Swiper !== 'undefined') {
+if (typeof Swiper !== "undefined") {
   // Initialize Swiper
-  var swiper = new Swiper('.swiper', {
+  var swiper = new Swiper(".swiper", {
     slidesPerView: 3,
     loop: true,
     autoplay: {
-        delay: 3000,
+      delay: 3000,
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     breakpoints: {
-        1024: {
-            slidesPerView: 4,
-        },
+      1024: {
+        slidesPerView: 4,
+      },
     },
   });
 }

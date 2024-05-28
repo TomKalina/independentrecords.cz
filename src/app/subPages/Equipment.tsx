@@ -12,8 +12,8 @@ function MyLi({
 }) {
   if (number) {
     return (
-      <li className="flex items-center mb-4 mt-4">
-        <strong className="bg-primary text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">
+      <li className="mb-4 mt-4 flex items-center">
+        <strong className="mr-3 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-lg font-semibold text-white">
           {number}
         </strong>
         <span className="text-white">{children}</span>
@@ -35,30 +35,30 @@ export default function Equipment(props: Props) {
   const isVisible1 = useIsVisible(ref1);
 
   return (
-    <section id="vybaveni" className="py-16 bg-gray-dark">
+    <section id="vybaveni" className="bg-gray-dark py-16">
       <div
         ref={ref1}
         className={classNames(
           `
-        container mx-auto flex flex-col md:flex-row items-center justify-between`,
-          isVisible1 ? "animate-fade-right" : "opacity-0"
+        container mx-auto flex flex-col items-center justify-between md:flex-row`,
+          isVisible1 ? "animate-fade-right" : "opacity-0",
         )}
       >
-        <div className="md:w-1/2 mb-8 md:mb-0">
+        <div className="mb-8 md:mb-0 md:w-1/2">
           <Image
             src="/ai/7.jpeg"
             width={500}
             height={500}
             alt="Image"
-            className="w-full md:mx-auto md:max-w-md rounded-lg bg-gray-100 shadow-lg"
+            className="bg-gray-100 w-full rounded-lg shadow-lg md:mx-auto md:max-w-md"
           />
         </div>
 
         <div className="md:w-1/2">
-          <h2 className="text-5xl font-bold mb-4 text-white">
+          <h2 className="mb-4 text-5xl font-bold text-white">
             Vybavení <span className="text-primary">studia</span>
           </h2>
-          <ol className="mt-5 mb-10 list-outside">
+          <ol className="mb-10 mt-5 list-outside">
             <MyLi number={1}>Počítač</MyLi>
             <MyLi>Apple Mac mini M1 8C CPU/8CGPU/16G/1TB/CZ</MyLi>
             <MyLi>Magic Keyboard Numeric Touch ID - Black Keys</MyLi>
@@ -93,7 +93,7 @@ export default function Equipment(props: Props) {
             <MyLi>Propojovací kabel BESPECO- EASX300</MyLi>
             <MyLi>HDMI rozbočovač Baseus Matrix</MyLi>
           </ol>
-          <button className="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full">
+          <button className="rounded-full bg-primary px-4 py-2 font-semibold text-white hover:bg-secondary">
             *Technické vybavení studia průběžně vylepšujeme, abychom mohli
             poskytnout co nejlepší služby pro co možná nejširší okruh muzikantů
             a ostatních zákazníků.*

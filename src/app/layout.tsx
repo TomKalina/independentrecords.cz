@@ -36,15 +36,15 @@ export default function RootLayout({
       </head>
 
       <body className="animate-fade">
-        <header className="bg-gray-dark sticky top-0 z-50 ">
-          <div className="container mx-auto flex justify-between items-center py-4">
+        <header className="sticky top-0 z-50 bg-gray-dark ">
+          <div className="container mx-auto flex items-center justify-between py-4">
             {/* Left section: Logo */}
             <div className="flex items-center">
               <a href="#">
                 <img
                   src="/logo/dlouhe-modra.svg"
                   alt="Logo"
-                  className="animate-jump-in h-14 w-auto mr-4"
+                  className="mr-4 h-14 w-auto animate-jump-in"
                 />
               </a>
             </div>

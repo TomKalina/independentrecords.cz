@@ -16,7 +16,7 @@ export default function Box({ title, text, link, src = "/ai/1.jpeg" }: Props) {
         src={src}
         width={500}
         height={500}
-        className="object-cover object-center w-full mb-8 rounded-xl"
+        className="mb-8 w-full rounded-xl object-cover object-center"
         alt="box"
       />
       <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-dark lg:text-3xl">
@@ -29,7 +29,7 @@ export default function Box({ title, text, link, src = "/ai/1.jpeg" }: Props) {
         {link && (
           <a
             href="#"
-            className="inline-flex items-center mt-4 font-semibold text-primary lg:mb-0 hover:text-gray-dark"
+            className="mt-4 inline-flex items-center font-semibold text-primary hover:text-gray-dark lg:mb-0"
             title="Explore Our Team"
           >
             {" "}

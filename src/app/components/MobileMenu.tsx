@@ -6,49 +6,49 @@ export default function MobileMenu(props: Props) {
   return (
     <nav
       id="mobile-menu-placeholder"
-      className="mobile-menu hidden flex flex-col items-center space-y-8 md:hidden"
+      className="mobile-menu flex hidden flex-col items-center space-y-8 md:hidden"
     >
       <ul>
         <li>
-          <a href="index.html" className="hover:text-secondary font-bold">
+          <a href="index.html" className="font-bold hover:text-secondary">
             Home
           </a>
         </li>
         <li>
-          <a href="aboutus.html" className="hover:text-secondary font-bold">
+          <a href="aboutus.html" className="font-bold hover:text-secondary">
             About us
           </a>
         </li>
         <li>
-          <a href="reviews.html" className="hover:text-secondary font-bold">
+          <a href="reviews.html" className="font-bold hover:text-secondary">
             Reviews
           </a>
         </li>
         <li>
-          <a href="portfolio.html" className="hover:text-secondary font-bold">
+          <a href="portfolio.html" className="font-bold hover:text-secondary">
             Portfolio
           </a>
         </li>
         <li>
-          <a href="team.html" className="hover:text-secondary font-bold">
+          <a href="team.html" className="font-bold hover:text-secondary">
             Team
           </a>
         </li>
         <li>
-          <a href="404.html" className="hover:text-secondary font-bold">
+          <a href="404.html" className="font-bold hover:text-secondary">
             404
           </a>
         </li>
         <li>
-          <a href="contact.html" className="hover:text-secondary font-bold">
+          <a href="contact.html" className="font-bold hover:text-secondary">
             Contact
           </a>
         </li>
       </ul>
-      <div className="flex flex-col mt-6 space-y-2 items-center">
+      <div className="mt-6 flex flex-col items-center space-y-2">
         <a
           href="https://spacema-dev.com/elevate-free-tailwind-business-template/"
-          className="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block flex items-center justify-center min-w-[110px]"
+          className="inline-block flex min-w-[110px] items-center justify-center rounded-full bg-primary px-4 py-2 font-semibold text-white hover:bg-secondary"
         >
           Download
         </a>

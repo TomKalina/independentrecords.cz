@@ -6,7 +6,7 @@ function App() {
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
   return (
     apiKey && (
-      <div className="w-full h-96">
+      <div className="h-96 w-full">
         <APIProvider apiKey={apiKey}>
           <Map defaultCenter={position} defaultZoom={9}>
             <Marker position={position} />

@@ -9,7 +9,7 @@ export function useIsVisible(ref: React.RefObject<HTMLElement>) {
       ([entry]) => {
         setIntersecting(entry.isIntersecting);
       },
-      { threshold: 0.2 }
+      { threshold: 0.2 },
     );
 
     observer.observe((ref as any).current);

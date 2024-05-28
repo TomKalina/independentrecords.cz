@@ -5,7 +5,7 @@ interface Props {}
 export default function Footer(props: Props) {
   return (
     <footer className="py-10">
-      <ul className="flex justify-center mt-10 space-x-8">
+      <ul className="mt-10 flex justify-center space-x-8">
         <li>
           <a href="#">
             <img
@@ -52,7 +52,7 @@ export default function Footer(props: Props) {
           </a>
         </li> */}
       </ul>
-      <span className="block text-center text-gray-txt font-semibold mt-10 ">
+      <span className="mt-10 block text-center font-semibold text-gray-txt ">
         © {new Date().getFullYear()}. Developed by{" "}
         <a href="https://skalina.cz" className="text-primary">
           Tom & Marky
