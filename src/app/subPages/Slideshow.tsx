@@ -58,9 +58,6 @@ const Slideshow = () => {
           />
         ))}
       </div>
-      currentSlide: {currentSlide}
-      zoom: {zoom}
-      zoomWay: {zoomWay}
     </>
   );
 };
