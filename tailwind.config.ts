@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        white: "#ffffff",
+        black: "#010717",
+        primary: "#004cfd",
+        secondary: "#5123f5",
+        gray: {
+          lighter: "#FAF7F3",
+          light: "#323232",
+          dark: "#010717",
+          txt: "#4c4d56",
+        },
+      },
     },
     container: {
       center: true,
@@ -26,20 +40,6 @@ const config: Config = {
     },
     fontFamily: {
       manrope: ["Manrope", "sans-serif"],
-    },
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      white: "#ffffff",
-      black: "#010717",
-      primary: "#004cfd",
-      secondary: "#5123f5",
-      gray: {
-        lighter: "#FAF7F3",
-        light: "#323232",
-        dark: "#010717",
-        txt: "#4c4d56",
-      },
     },
   },
   plugins: [require("tailwindcss-animated")],
