@@ -24,7 +24,7 @@ export default function Footer(props: Props) {
             />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#">
             <img
               src="assets/images/social_icons/facebook.png"
@@ -50,11 +50,11 @@ export default function Footer(props: Props) {
               className="h-10 w-10"
             />
           </a>
-        </li>
+        </li> */}
       </ul>
       <span className="block text-center text-gray-txt font-semibold mt-10 ">
         © {new Date().getFullYear()}. Developerd by{" "}
-        <a href="https://spacema-dev.com" className="text-primary">
+        <a href="https://skalina.cz" className="text-primary">
           Tom & Marky
         </a>
       </span>
