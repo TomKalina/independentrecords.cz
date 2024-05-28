@@ -53,7 +53,7 @@ export default function Footer(props: Props) {
         </li> */}
       </ul>
       <span className="block text-center text-gray-txt font-semibold mt-10 ">
-        © {new Date().getFullYear()}. Developerd by{" "}
+        © {new Date().getFullYear()}. Developed by{" "}
         <a href="https://skalina.cz" className="text-primary">
           Tom & Marky
         </a>
