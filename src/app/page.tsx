@@ -15,9 +15,9 @@ export default function Home() {
         Independent Studio bylo vybudováno za podpory CT-Pink
       </Section>
       {/* <Slideshow /> */}
+      <Services />
       <Story />
       {/* <WeAre /> */}
-      <Services />
       <Equipment />
       <Section id="kontakty" title="Kontakt">
         <Map />
