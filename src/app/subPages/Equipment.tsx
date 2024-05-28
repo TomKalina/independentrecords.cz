@@ -16,7 +16,7 @@ function MyLi({
         <strong className="bg-primary text-white rounded-full w-8 h-8 text-lg font-semibold flex items-center justify-center mr-3">
           {number}
         </strong>
-        <span className="text-white">Počítač</span>
+        <span className="text-white">{children}</span>
       </li>
     );
   }
