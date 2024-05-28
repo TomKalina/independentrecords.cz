@@ -9,13 +9,13 @@ const images = [
 
 const Slideshow = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [zoom, setZoom] = useState(150);
+  const [zoom, setZoom] = useState(100);
   const [zoomWay, setZoomWay] = useState<"up" | "down">("up");
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % images.length);
-    }, 3000); // Časový interval v milisekundách (3000 ms = 3 sekundy)
+    }, 10000);
 
     return () => clearInterval(interval);
   }, []);
@@ -23,40 +23,45 @@ const Slideshow = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setZoom((prevZoom) => {
-        if (zoomWay === "up" && prevZoom >= 150) {
+        if (zoomWay === "up" && prevZoom >= 110) {
           setZoomWay("down");
-          return prevZoom - 1;
+          return prevZoom - 2;
         } else if (zoomWay === "down" && prevZoom <= 100) {
           setZoomWay("up");
-          return prevZoom + 1;
+          return prevZoom + 2;
         } else {
           return zoomWay === "up" ? prevZoom + 1 : prevZoom - 1;
         }
       });
-    }, 500); // Interval pro plynulý přechod
+    }, 1000);
 
     return () => clearInterval(interval);
   }, [zoomWay]);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000
+    <>
+      <div className="relative w-screen h-screen overflow-hidden">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`absolute top-0 left-0 w-full h-full
             ${index === currentSlide ? "opacity-100" : "opacity-0"}
             `}
-          style={{
-            backgroundImage: `url(${image})`,
-            backgroundSize: `${zoom}%`,
-            backgroundPosition: "top",
-            backgroundRepeat: "no-repeat",
-            transition:
-              "background-size 0.5s ease-in-out, opacity 1s ease-in-out",
-          }}
-        />
-      ))}
-    </div>
+            style={{
+              backgroundImage: `url(${image})`,
+              backgroundSize: `${zoom}%`,
+              backgroundPosition: "top",
+              backgroundRepeat: "no-repeat",
+              transition:
+                "background-size 1s ease-in-out, opacity 10s ease-in-out",
+            }}
+          />
+        ))}
+      </div>
+      currentSlide: {currentSlide}
+      zoom: {zoom}
+      zoomWay: {zoomWay}
+    </>
   );
 };
 
