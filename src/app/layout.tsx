@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
+import Image from "next/image";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -23,16 +24,6 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="icon" href="assets/images/favicon.png" />
         <title>independentrecords.cz</title>
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-          rel="stylesheet"
-        />
-
-        {/* <link rel="stylesheet" href="/assets/css/styles.css" /> */}
-        {/* <link rel="stylesheet" href="assets/css/custom.css" /> */}
       </head>
 
       <body className="animate-fade">
@@ -41,7 +32,9 @@ export default function RootLayout({
             {/* Left section: Logo */}
             <div className="flex items-center">
               <a href="#">
-                <img
+                <Image
+                  width={200}
+                  height={100}
                   src="/logo/dlouhe-modra.svg"
                   alt="Logo"
                   className="mr-4 h-14 w-auto animate-jump-in"
