@@ -8,7 +8,7 @@ export default function Footer(props: Props) {
     <footer className="py-10">
       <ul className="mt-10 flex justify-center space-x-8">
         <li>
-          <a href="https://www.youtube.com/channel/UC5N-XPGXWVO1tlWLfgkqHQQ">
+          <a href="https://www.instagram.com/indpnt_records/">
             <Image
               src="/assets/images/social_icons/instagram.png"
               alt="Instagram"
@@ -19,7 +19,7 @@ export default function Footer(props: Props) {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/indpnt_records/">
+          <a href="https://www.youtube.com/channel/UC5N-XPGXWVO1tlWLfgkqHQQ">
             <Image
               src="/assets/images/social_icons/youtube.png"
               alt="YouTube"
