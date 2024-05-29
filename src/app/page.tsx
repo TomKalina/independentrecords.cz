@@ -11,9 +11,6 @@ import Slideshow from "./subPages/Slideshow";
 export default function Home() {
   return (
     <>
-      <Section title="Podpora">
-        Independent Studio bylo vybudováno za podpory CT-Pink
-      </Section>
       {/* <Slideshow /> */}
       <Services />
       <Story />
