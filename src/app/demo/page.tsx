@@ -42,18 +42,18 @@ export default function page(props: Props) {
             <img
               src="/assets/images/1.jpg"
               alt="Image"
-              className="bg-gray-100 w-full rounded-lg shadow-lg md:mx-auto md:max-w-md"
+              className="w-full rounded-lg bg-gray-100 shadow-lg md:mx-auto md:max-w-md"
             />
           </div>
         </div>
       </section>
-      <section id="aboutus" className="bg-gray-dark py-16">
+      <section id="aboutus" className="bg-gray-500 py-16">
         <div className="container mx-auto flex flex-col items-center justify-between md:flex-row">
           <div className="mb-8 md:mb-0 md:w-1/2">
             <img
               src="/assets//images/2.jpg"
               alt="Image"
-              className="bg-gray-100 w-full rounded-lg shadow-lg md:mx-auto md:max-w-md"
+              className="w-full rounded-lg bg-gray-100 shadow-lg md:mx-auto md:max-w-md"
             />
           </div>
 
@@ -231,7 +231,7 @@ export default function page(props: Props) {
       </section>
       <section id="subscribe" className="bg-primary py-4">
         <div className="max-w-screen-2xl mx-auto px-4 md:px-8">
-          <div className="bg-gray-100 flex flex-col items-center rounded-lg p-4 sm:p-8 lg:flex-row lg:justify-between">
+          <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 sm:p-8 lg:flex-row lg:justify-between">
             <div className="mb-4 sm:mb-8 lg:mb-0">
               <h2 className="text-center text-xl font-bold text-white sm:text-2xl lg:text-left lg:text-3xl">
                 Stay Updated

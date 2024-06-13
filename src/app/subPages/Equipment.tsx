@@ -35,7 +35,7 @@ export default function Equipment(props: Props) {
   const isVisible1 = useIsVisible(ref1);
 
   return (
-    <section id="vybaveni" className="bg-gray-dark py-16">
+    <section id="vybaveni" className="bg-gray-500 py-16">
       <div
         ref={ref1}
         className={classNames(
@@ -50,7 +50,7 @@ export default function Equipment(props: Props) {
             width={500}
             height={500}
             alt="Image"
-            className="bg-gray-100 w-full rounded-lg shadow-lg md:mx-auto md:max-w-md"
+            className="w-full rounded-lg bg-gray-100 shadow-lg md:mx-auto md:max-w-md"
           />
         </div>
 

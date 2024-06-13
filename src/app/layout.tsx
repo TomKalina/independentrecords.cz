@@ -27,7 +27,7 @@ export default function RootLayout({
       </head>
 
       <body className="animate-fade">
-        <header className="sticky top-0 z-50 bg-gray-dark ">
+        <header className="sticky top-0 z-50 bg-gray-500">
           <div className="container mx-auto flex items-center justify-between py-4">
             {/* Left section: Logo */}
             <div className="flex items-center">

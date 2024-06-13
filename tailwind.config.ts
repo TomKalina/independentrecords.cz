@@ -18,7 +18,7 @@ const config: Config = {
         current: "currentColor",
         white: "#ffffff",
         black: "#010717",
-        primary: "#004cfd",
+        primary: "#27285a",
         secondary: "#5123f5",
         gray: {
           lighter: "#FAF7F3",
