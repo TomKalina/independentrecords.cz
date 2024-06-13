@@ -64,7 +64,6 @@ export default function Equipment(props: Props) {
             <MyLi>Magic Keyboard Numeric Touch ID - Black Keys</MyLi>
             <MyLi>Apple Magic Mouse MK2E3ZM/A</MyLi>
             <MyLi>2x širokoúhlý 4K HD monitor ASUS</MyLi>
-
             <MyLi number={2}>Klávesnice / MIDI ovladače</MyLi>
             <MyLi>AKAI MAX49 MIDI Controller Keyboard</MyLi>
             <MyLi number={3}>Audio rozhraní</MyLi>
@@ -77,6 +76,8 @@ export default function Equipment(props: Props) {
             <MyLi>Sluchátka Beyerdynamic DT-770 Pro, 80ohm</MyLi>
             <MyLi>Sluchátka OLLO Audio S4R, 32ohm</MyLi>
             <MyLi number={5}>Náběr</MyLi>
+            <MyLi>NEUMANN TLM 102 BK</MyLi>
+            <MyLi>Rode M5 Stereo</MyLi>
             <MyLi>Rode NT1</MyLi>
             <MyLi number={6}>Akustika</MyLi>
             <MyLi>Akustické molitan Pyramida</MyLi>
