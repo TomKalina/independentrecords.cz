@@ -67,7 +67,7 @@ export default function Equipment(props: Props) {
             <MyLi number={2}>Klávesnice / MIDI ovladače</MyLi>
             <MyLi>AKAI MAX49 MIDI Controller Keyboard</MyLi>
             <MyLi number={3}>Audio rozhraní</MyLi>
-            <MyLi>Audient iD44 MKII - USB zvuková karta</MyLi>
+            <MyLi>Audient iD44 MKII</MyLi>
             <MyLi>Behringer ADA 8200 Ultragain</MyLi>
             <MyLi number={4}>Monitoring</MyLi>
             <MyLi>Studiové monitory aktivní Focal Shape 65</MyLi>
