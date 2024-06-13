@@ -26,8 +26,8 @@ export default function Services(props: Props) {
           <Box title="Produkční služby" text="" src="/ai/4.jpeg" />
         </div>
         <p className="text-center">
-          *Nacenění služeb studia aktuálně probíhá - pro konkrétní poptávku nás
-          prosím kontaktujte e-mailem nebo telefoanicky.*
+          Nacenění služeb studia aktuálně probíhá - pro konkrétní poptávku nás
+          prosím kontaktujte e-mailem nebo telefonicky.
         </p>
       </div>
     </Section>
