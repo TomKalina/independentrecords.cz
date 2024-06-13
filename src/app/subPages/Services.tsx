@@ -27,7 +27,7 @@ export default function Services(props: Props) {
         </div>
         <p className="text-center">
           *Nacenění služeb studia aktuálně probíhá - pro konkrétní poptávku nás
-          prosím kontaktujte e-mailem nebo telefoanicky.*
+          prosím kontaktujte e-mailem nebo telefonicky.*
         </p>
       </div>
     </Section>
