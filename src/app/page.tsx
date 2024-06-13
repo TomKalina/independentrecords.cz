@@ -26,14 +26,14 @@ export default function Home() {
               className="text-lg font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
               href="#"
             >
-              info@example.com
+              independentrecords@protonmail.com
             </Link>
           </div>
         </div>
         <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
           <div className="flex items-center justify-between">
             <h3 className="text-xl font-semibold">Phone</h3>
-            <div className="text-lg font-medium">+1 (555) 123-4567</div>
+            <div className="text-lg font-medium">+420 731 262 744</div>
           </div>
         </div>
       </div>
