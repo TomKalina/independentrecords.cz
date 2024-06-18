@@ -8,6 +8,7 @@ export default function Services(props: Props) {
   return (
     <Section
       id="sluzby"
+      animate={false}
       title={
         <>
           Služby a <span className="text-primary">vybavení</span>
