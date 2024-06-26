@@ -19,9 +19,9 @@ export default function Box({ title, text, link, src = "/ai/1.jpeg" }: Props) {
         className="mb-8 w-full rounded-xl object-cover object-center"
         alt="box"
       />
-      <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-dark lg:text-3xl">
+      <h2 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-gray-dark lg:text-3xl">
         {title}
-      </h1>
+      </h2>
       <p className="mx-auto text-base font-medium leading-relaxed text-gray-txt">
         {text}
       </p>
