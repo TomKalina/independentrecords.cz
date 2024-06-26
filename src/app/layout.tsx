@@ -18,12 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html lang="cs">
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="icon" href="assets/images/favicon.png" />
-        <title>independentrecords.cz</title>
+        <title>Independent Records - Nahrávací studio Česká Třebová</title>
       </head>
 
       <body className="animate-fade">
