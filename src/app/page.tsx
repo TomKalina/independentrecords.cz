@@ -8,12 +8,24 @@ import Services from "./subPages/Services";
 import Story from "./subPages/Story";
 import Slideshow from "./subPages/Slideshow";
 import Link from "next/link";
+import classNames from "classnames";
+import { title } from "process";
 
 export default function Home() {
   return (
     <>
       {/* <Slideshow /> */}
-      <h1>Independent Records - Nahrávací studio Česká Třebová</h1>
+      <section className={classNames("bg-white px-4 py-16")}>
+        <div className=" container ">
+          <div className="mb-12 text-center">
+            <h1 className="mb-4 text-5xl font-bold">
+              Independent Records - Nahrávací studio Česká Třebová
+            </h1>
+            {/* {children} */}
+          </div>
+        </div>
+      </section>
+
       <Services />
       <Story />
       {/* <WeAre /> */}
