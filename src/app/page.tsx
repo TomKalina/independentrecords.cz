@@ -13,31 +13,32 @@ export default function Home() {
   return (
     <>
       {/* <Slideshow /> */}
+      <h1>Independent Records - Nahrávací studio Česká Třebová</h1>
       <Services />
       <Story />
       {/* <WeAre /> */}
       <Equipment />
       <Section id="kontakty" title="Kontakt">
-      <div className="mx-auto mt-8 max-w-md space-y-4">
-        <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
-          <div className="flex items-center justify-between">
-            <h3 className="text-xl font-semibold">Email</h3>
-            <Link
-              className="text-lg font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
-              href="#"
-            >
-              independentrecords@protonmail.com
-            </Link>
+        <div className="mx-auto mt-8 max-w-md space-y-4">
+          <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
+            <div className="flex items-center justify-between">
+              <h3 className="text-xl font-semibold">Email</h3>
+              <Link
+                className="text-lg font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
+                href="#"
+              >
+                independentrecords@protonmail.com
+              </Link>
+            </div>
+          </div>
+          <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
+            <div className="flex items-center justify-between">
+              <h3 className="text-xl font-semibold">Phone</h3>
+              <div className="text-lg font-medium">+420 731 262 744</div>
+            </div>
           </div>
         </div>
-        <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
-          <div className="flex items-center justify-between">
-            <h3 className="text-xl font-semibold">Phone</h3>
-            <div className="text-lg font-medium">+420 731 262 744</div>
-          </div>
-        </div>
-      </div>
-      <br />
+        <br />
         <Map />
       </Section>
     </>
