@@ -43,7 +43,7 @@ const Loading: React.FC<Props> = ({}) => {
       <Image
         width={500}
         height={500}
-        src="/logo/kulate-cerna.svg"
+        src="/logo/kulate-modra.svg"
         alt="Logo"
         // className="mr-4 h-14 w-auto animate-jump-in"
       />
