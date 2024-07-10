@@ -10,10 +10,12 @@ import Slideshow from "./subPages/Slideshow";
 import Link from "next/link";
 import classNames from "classnames";
 import { title } from "process";
+import Loading from "@/app/components/Loading";
 
 export default function Home() {
   return (
     <>
+      <Loading />
       {/* <Slideshow /> */}
       <section className={classNames("bg-white px-4 py-16")}>
         <div className=" container ">
