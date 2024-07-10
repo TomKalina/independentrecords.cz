@@ -9,6 +9,7 @@ interface Props {}
 
 const Loading: React.FC<Props> = ({}) => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isLoadingDisable, setIsLoadingDisable] = useState(true);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -18,16 +19,24 @@ const Loading: React.FC<Props> = ({}) => {
     return () => clearTimeout(timeout);
   }, []);
 
-  //   if (!isLoading) {
-  //     return <></>;
-  //   }
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIsLoadingDisable(false);
+    }, 4000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
+  if (!isLoadingDisable) {
+    return <></>;
+  }
 
   return (
     <div
       className={classNames(
         "fixed left-0 top-0 z-50 flex h-full w-full items-center justify-center bg-white bg-opacity-95",
         {
-          "animate-fade animate-reverse": !isLoading,
+          "animate-fade animate-reverse animate-duration-1000": !isLoading,
         },
       )}
     >
