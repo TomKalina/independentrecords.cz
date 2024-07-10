@@ -14,7 +14,7 @@ const Loading: React.FC<Props> = ({}) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timeout);
   }, []);
@@ -22,7 +22,7 @@ const Loading: React.FC<Props> = ({}) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsLoadingDisable(false);
-    }, 4000);
+    }, 3000);
 
     return () => clearTimeout(timeout);
   }, []);
@@ -41,8 +41,8 @@ const Loading: React.FC<Props> = ({}) => {
       )}
     >
       <Image
-        width={500}
-        height={500}
+        width={400}
+        height={400}
         src="/logo/kulate-modra.svg"
         alt="Logo"
         // className="mr-4 h-14 w-auto animate-jump-in"
