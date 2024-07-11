@@ -45,7 +45,7 @@ const Loading: React.FC<Props> = ({}) => {
         height={400}
         src="/logo/kulate-modra.svg"
         alt="Logo"
-        // className="mr-4 h-14 w-auto animate-jump-in"
+        className="animate-spin animate-once"
       />
     </div>
   );
