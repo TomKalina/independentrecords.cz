@@ -10,7 +10,7 @@ import Slideshow from "./subPages/Slideshow";
 import Link from "next/link";
 import classNames from "classnames";
 import { title } from "process";
-import Loading from "@/app/components/Loading";
+import Loading from "@/app/subPages/Loading";
 
 export default function Home() {
   return (
