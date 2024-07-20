@@ -1,5 +1,6 @@
 "use client";
 
+import { useOutsideClick } from "@/app/hooks/useOutsideClick";
 import * as React from "react";
 
 interface Props {}
@@ -23,7 +24,8 @@ function Item(props: { href: string; children: React.ReactNode }) {
 
 export default function Menu(props: Props) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
+  const ref = React.useRef<HTMLDivElement>(null);
+  useOutsideClick(ref, () => setIsMenuOpen(false));
   function MobileItem(props: { href: string; children: React.ReactNode }) {
     return (
       <li className="border-b border-primary pb-4 pt-4 ">
@@ -49,11 +51,8 @@ export default function Menu(props: Props) {
           ))}
         </ul>
       </nav>
-      <button
-        className="flex text-white focus:outline-none md:hidden"
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-      >
-        {isMenuOpen ? (
+      {isMenuOpen ? (
+        <button className="flex text-white hover:text-primary focus:outline-none md:hidden">
           <svg
             className="h-6 w-6"
             fill="none"
@@ -67,7 +66,12 @@ export default function Menu(props: Props) {
               d="M6 6l12 12M6 18L18 6"
             ></path>
           </svg>
-        ) : (
+        </button>
+      ) : (
+        <button
+          className="flex text-white hover:text-primary focus:outline-none md:hidden"
+          onClick={() => setIsMenuOpen(true)}
+        >
           <svg
             className="h-6 w-6"
             fill="none"
@@ -81,10 +85,10 @@ export default function Menu(props: Props) {
               d="M4 6h16M4 12h16M4 18h16"
             ></path>
           </svg>
-        )}
-      </button>
+        </button>
+      )}
       {isMenuOpen && (
-        <nav className="w-full md:block md:w-auto">
+        <nav className="w-full md:block md:w-auto" ref={ref}>
           <ul>
             {menu.map((item) => (
               <MobileItem key={item.href} href={item.href}>
