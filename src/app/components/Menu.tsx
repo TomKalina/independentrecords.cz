@@ -21,18 +21,23 @@ function Item(props: { href: string; children: React.ReactNode }) {
   );
 }
 
-function MobileItem(props: { href: string; children: React.ReactNode }) {
-  return (
-    <li className="border-b border-primary pb-4 pt-4 ">
-      <a href={props.href} className="font-bold text-white hover:text-primary">
-        {props.children}
-      </a>
-    </li>
-  );
-}
-
 export default function Menu(props: Props) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  function MobileItem(props: { href: string; children: React.ReactNode }) {
+    return (
+      <li className="border-b border-primary pb-4 pt-4 ">
+        <a
+          href={props.href}
+          className="font-bold text-white hover:text-primary"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          {props.children}
+        </a>
+      </li>
+    );
+  }
+
   return (
     <>
       <nav className="hidden justify-center sm:hidden md:flex md:flex-grow">
