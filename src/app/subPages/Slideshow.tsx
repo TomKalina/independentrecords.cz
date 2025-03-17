@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 const images = Array.from(
   { length: 29 },
-  (_, i) => `/assets/images/studio/${i + 1}.jpg`,
+  (_, i) => `/assets/images/studio/mini/${i + 1}.jpg`,
 );
 
 const Slideshow = () => {

@@ -30,7 +30,7 @@ export default function WeAre(props: Props) {
           className={`my-6 rounded-lg bg-white p-6 text-center shadow-md `}
         >
           <Image
-            src="/assets/images/studio/Medailonky/ondra.jpg"
+            src="/assets/images/studio/mini/ondra.jpg"
             alt="Team Member 1"
             className={`mb-4 w-full rounded-full  ${
               isVisible1 ? "animate-fade-right" : "opacity-0"
@@ -48,7 +48,7 @@ export default function WeAre(props: Props) {
           className="my-6 rounded-lg bg-white p-6 text-center shadow-md"
         >
           <Image
-            src="/assets/images/studio/Medailonky/jara.jpg"
+            src="/assets/images/studio/mini/jara.jpg"
             alt="Team Member 2"
             className={`mb-4 w-full rounded-full  ${
               isVisible2 ? "animate-fade-left" : "opacity-0"
