@@ -30,7 +30,7 @@ export default function WeAre(props: Props) {
           className={`my-6 rounded-lg bg-white p-6 text-center shadow-md `}
         >
           <Image
-            src="/assets/images/team/1.jpg"
+            src="/assets/images/studio/Medailonky/ondra.jpg"
             alt="Team Member 1"
             className={`mb-4 w-full rounded-full  ${
               isVisible1 ? "animate-fade-right" : "opacity-0"
@@ -40,13 +40,15 @@ export default function WeAre(props: Props) {
             loading="lazy"
           />
           <h3 className="mb-2 text-xl font-semibold">Ondřej Bouška</h3>
+          Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj
+          Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj
         </div>
         <div
           ref={ref2}
           className="my-6 rounded-lg bg-white p-6 text-center shadow-md"
         >
           <Image
-            src="/assets/images/team/2.jpg"
+            src="/assets/images/studio/Medailonky/jara.jpg"
             alt="Team Member 2"
             className={`mb-4 w-full rounded-full  ${
               isVisible2 ? "animate-fade-left" : "opacity-0"
@@ -56,6 +58,8 @@ export default function WeAre(props: Props) {
             loading="lazy"
           />
           <h3 className="mb-2 text-xl font-semibold">Jaroslav Kučera</h3>
+          Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj
+          Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj
         </div>
       </div>
     </Section>

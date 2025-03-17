@@ -11,12 +11,13 @@ import Link from "next/link";
 import classNames from "classnames";
 import { title } from "process";
 import Loading from "@/app/subPages/Loading";
+import SoundCloud from "@/app/components/SoundCloud";
 
 export default function Home() {
   return (
     <>
       <Loading />
-      {/* <Slideshow /> */}
+      <Slideshow />
       <section className={classNames("bg-white px-4 py-16")}>
         <div className=" container ">
           <div className="mb-12 text-center">
@@ -29,8 +30,9 @@ export default function Home() {
       </section>
 
       <Services />
+      <SoundCloud />
       <Story />
-      {/* <WeAre /> */}
+      <WeAre />
       <Equipment />
       <Section id="kontakty" title="Kontakt">
         <div className="mx-auto mt-8 max-w-md space-y-4">
