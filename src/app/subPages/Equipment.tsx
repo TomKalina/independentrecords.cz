@@ -35,7 +35,7 @@ export default function Equipment(props: Props) {
   const isVisible1 = useIsVisible(ref1);
 
   return (
-    <section id="vybaveni" className="bg-gray-500 py-16">
+    <section id="vybaveni" className="scroll-mt-menu bg-gray-500 py-16">
       <div
         ref={ref1}
         className={classNames(
