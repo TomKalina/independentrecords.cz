@@ -20,7 +20,7 @@ export default function SectionWithImage({
 
         <div className="md:w-1/2">
           <Image
-            src="/assets/images/studio/mini/1.jpg"
+            src="/assets/images/studio/mini/3.jpg"
             alt="Image"
             className="w-full rounded-lg bg-gray-100 shadow-lg md:mx-auto md:max-w-md"
             width={500}

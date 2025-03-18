@@ -26,7 +26,7 @@ export default function Services(props: Props) {
             text=""
             src="/assets/images/studio/mini/4.jpg"
           />
-          <Box title="Mixing" text="" src="/assets/images/studio/mini/21.jpg" />
+          <Box title="Mixing" text="" src="/assets/images/studio/mini/19.jpg" />
           <Box
             title="Mastering"
             text=""
@@ -35,7 +35,7 @@ export default function Services(props: Props) {
           <Box
             title="Produkční služby"
             text=""
-            src="/assets/images/studio/mini/3.jpg"
+            src="/assets/images/studio/mini/21.jpg"
           />
         </div>
         <p className="text-center">
