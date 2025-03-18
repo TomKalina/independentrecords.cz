@@ -15,3 +15,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.scroll-mt-menu {
+  scroll-margin-top: 100px; /* výška tvého fixního menu + rezerva */
+}

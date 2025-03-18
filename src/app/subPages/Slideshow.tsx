@@ -1,10 +1,21 @@
 "use client";
 import React, { useState, useEffect } from "react";
 
-const images = Array.from(
-  { length: 29 },
-  (_, i) => `/assets/images/studio/mini/${i + 1}.jpg`,
-);
+const images = [
+  `/assets/images/studio/mini/11.jpg`,
+  `/assets/images/studio/mini/2.jpg`,
+  `/assets/images/studio/mini/8.jpg`,
+  `/assets/images/studio/mini/9.jpg`,
+  `/assets/images/studio/mini/12.jpg`,
+  `/assets/images/studio/mini/14.jpg`,
+  `/assets/images/studio/mini/15.jpg`,
+  `/assets/images/studio/mini/16.jpg`,
+  `/assets/images/studio/mini/17.jpg`,
+  `/assets/images/studio/mini/18.jpg`,
+  `/assets/images/studio/mini/23.jpg`,
+  `/assets/images/studio/mini/26.jpg`,
+  `/assets/images/studio/mini/29.jpg`,
+];
 
 const Slideshow = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

@@ -21,10 +21,22 @@ export default function Services(props: Props) {
       </p>
       <div className="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
         <div className="mx-auto grid w-full grid-cols-1 gap-6 lg:grid-cols-4">
-          <Box title="Nahrávací den" text="" src="/ai/3.jpeg" />
-          <Box title="Mixing" text="" src="/ai/2.jpeg" />
-          <Box title="Mastering" text="" src="/ai/1.jpeg" />
-          <Box title="Produkční služby" text="" src="/ai/4.jpeg" />
+          <Box
+            title="Nahrávací den"
+            text=""
+            src="/assets/images/studio/mini/4.jpg"
+          />
+          <Box title="Mixing" text="" src="/assets/images/studio/mini/21.jpg" />
+          <Box
+            title="Mastering"
+            text=""
+            src="/assets/images/studio/mini/28.jpg"
+          />
+          <Box
+            title="Produkční služby"
+            text=""
+            src="/assets/images/studio/mini/3.jpg"
+          />
         </div>
         <p className="text-center">
           Nacenění služeb studia aktuálně probíhá - pro konkrétní poptávku nás
