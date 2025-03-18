@@ -8,18 +8,18 @@ const SoundCloud: React.FC<Props> = ({}) => {
     <Section>
       <iframe
         width="100%"
-        height="300"
+        height="450"
         scrolling="no"
         frameBorder="no"
         allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1987166092&color=%23221e65&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1987166092&color=%2327285a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
       ></iframe>
       <div
         style={{
           fontSize: "10px",
           color: "#cccccc",
           lineBreak: "anywhere",
-          wordBreak: "normal",
+          textDecoration: "none",
           overflow: "hidden",
           whiteSpace: "nowrap",
           textOverflow: "ellipsis",
@@ -30,18 +30,24 @@ const SoundCloud: React.FC<Props> = ({}) => {
       >
         <a
           href="https://soundcloud.com/independentrecordsstudio"
-          title="Independent_Records_Studio"
+          title="Independent Records"
           target="_blank"
-          style={{ color: "#cccccc", textDecoration: "none" }}
+          style={{
+            color: "#cccccc",
+            textDecoration: "none",
+          }}
         >
-          Independent_Records_Studio
+          Independent Records
         </a>{" "}
         ·{" "}
         <a
           href="https://soundcloud.com/independentrecordsstudio/sets/independent-records-web"
           title="Independent Records Web"
           target="_blank"
-          style={{ color: "#cccccc", textDecoration: "none" }}
+          style={{
+            color: "#cccccc",
+            textDecoration: "none",
+          }}
         >
           Independent Records Web
         </a>
