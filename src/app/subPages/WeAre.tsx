@@ -32,7 +32,7 @@ export default function WeAre(props: Props) {
           <Image
             src="/assets/images/studio/mini/ondra.jpg"
             alt="Team Member 1"
-            className={`mb-4 w-full rounded-full  ${
+            className={`mb-4 aspect-square w-full rounded-full object-cover ${
               isVisible1 ? "animate-fade-right" : "opacity-0"
             }`}
             width={300}
@@ -49,9 +49,9 @@ export default function WeAre(props: Props) {
         >
           <Image
             src="/assets/images/studio/mini/jara.jpg"
-            alt="Team Member 2"
-            className={`mb-4 w-full rounded-full  ${
-              isVisible2 ? "animate-fade-left" : "opacity-0"
+            alt="Team Member 1"
+            className={`mb-4 aspect-square w-full rounded-full object-cover ${
+              isVisible1 ? "animate-fade-right" : "opacity-0"
             }`}
             width={300}
             height={300}

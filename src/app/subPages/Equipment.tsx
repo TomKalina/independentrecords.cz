@@ -46,7 +46,7 @@ export default function Equipment(props: Props) {
       >
         <div className="mb-8 md:mb-0 md:w-1/2">
           <Image
-            src="/assets/images/studio/mini/16.jpg"
+            src="/assets/images/studio/mini/3.jpg"
             width={500}
             height={500}
             alt="Image"
