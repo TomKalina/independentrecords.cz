@@ -24,14 +24,14 @@ export default function RootLayout({
       </head>
 
       <body className="animate-fade">
-        <header className="sticky top-0 z-50 bg-gray-500">
+        <header className="sticky top-0 z-50 bg-black">
           <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
             <div className="flex items-center space-x-3 rtl:space-x-reverse">
               <a href="#">
                 <Image
                   width={200}
                   height={100}
-                  src="/logo/dlouhe-modra.svg"
+                  src="/logo/dlouhe-modra-bila.svg"
                   alt="Logo"
                   className="mr-4 h-14 w-auto animate-jump-in"
                 />
