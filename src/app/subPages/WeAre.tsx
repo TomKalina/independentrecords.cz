@@ -31,7 +31,7 @@ export default function WeAre(props: Props) {
         >
           <Image
             src="/assets/images/studio/mini/ondra.jpg"
-            alt="Team Member 1"
+            alt="Ondřej Bouška"
             className={`mb-4 aspect-square w-full rounded-full object-cover ${
               isVisible1 ? "animate-fade-right" : "opacity-0"
             }`}
@@ -39,9 +39,32 @@ export default function WeAre(props: Props) {
             height={300}
             loading="lazy"
           />
-          <h3 className="mb-2 text-xl font-semibold">Ondřej Bouška</h3>
-          Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj
-          Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj
+          <h3 className="mb-2 text-xl font-semibold">BOUDA - Ondřej Bouška</h3>
+          <p>
+            S hudbou jsem vyrůstal odmala. V rodině, kde se pravidelně hrálo na
+            kytaru, na klavír a zpívalo to vlastně ani jinak nejde 😊
+          </p>
+          <br />
+          <p>
+            Na základce přišla první kytara, baskytara, pak bicí a já si
+            postupně začal uvědomovat, že mám pro hudbu vlohy - že to mám v
+            krvi. Ačkoli mám svoje oblíbený žánry, miluju hudbu jako celek. S
+            rockem, punkem a nu-metalem přišla láska k tvrdé muzice. S rapem
+            přišlo uvědomění, že k nám hudba může promlouvat a občas se nás
+            dotknout někde hodně hluboko. Nahrávací studio byl můj sen přes 10
+            let a jsem šťastnej že se nám ho podařilo uskutečnit.
+          </p>
+          <br />
+          <p>
+            Věnuji se sound engineeringu, produkování a zároveň se více starám o
+            marketing studia a obecně o byrokracii, kterou s sebou podnikání
+            nese.
+          </p>
+          <br />
+          <p>
+            Jinak jsem jen kluk co si plní sen a chce se v životě věnovat tomu,
+            co ho baví!
+          </p>
         </div>
         <div
           ref={ref2}
@@ -49,7 +72,7 @@ export default function WeAre(props: Props) {
         >
           <Image
             src="/assets/images/studio/mini/jara.jpg"
-            alt="Team Member 1"
+            alt="Jaroslav Kučera"
             className={`mb-4 aspect-square w-full rounded-full object-cover ${
               isVisible1 ? "animate-fade-right" : "opacity-0"
             }`}
@@ -58,8 +81,6 @@ export default function WeAre(props: Props) {
             loading="lazy"
           />
           <h3 className="mb-2 text-xl font-semibold">Jaroslav Kučera</h3>
-          Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj
-          Ahoj Ahoj Ahoj Ahoj Ahoj Ahoj
         </div>
       </div>
     </Section>
