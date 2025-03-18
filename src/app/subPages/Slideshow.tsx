@@ -24,10 +24,18 @@ const Slideshow = () => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % images.length);
     }, 8000);
-
     return () => clearInterval(interval);
   }, []);
 
+  // New handlers for next/previous
+  const handlePrev = () => {
+    setCurrentSlide((prev) => (prev - 1 + images.length) % images.length);
+  };
+  const handleNext = () => {
+    setCurrentSlide((prev) => (prev + 1) % images.length);
+  };
+  const rowButton =
+    "absolute  top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-primary  text-white";
   return (
     <div className="relative h-screen w-screen overflow-hidden">
       {images.map((image, index) => (
@@ -46,6 +54,12 @@ const Slideshow = () => {
           }}
         />
       ))}
+      <button onClick={handlePrev} className={rowButton + " left-4"}>
+        ←
+      </button>
+      <button onClick={handleNext} className={rowButton + " right-4"}>
+        →
+      </button>
     </div>
   );
 };
