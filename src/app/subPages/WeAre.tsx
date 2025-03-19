@@ -27,16 +27,16 @@ export default function WeAre(props: Props) {
       >
         <div
           ref={ref1}
-          className={`my-6 rounded-lg bg-white p-6 text-center shadow-md `}
+          className={`mx-auto my-6 rounded-lg bg-white p-6 text-center shadow-md`}
         >
           <Image
             src="/assets/images/studio/mini/ondra.jpg"
             alt="Ondřej Bouška"
-            className={`mb-4 aspect-square w-full rounded-full object-cover ${
+            className={`mx-auto mb-4 aspect-square w-1/2 rounded-full object-cover ${
               isVisible1 ? "animate-fade-right" : "opacity-0"
             }`}
-            width={300}
-            height={300}
+            width={800}
+            height={800}
             loading="lazy"
           />
           <h3 className="mb-2 text-xl font-semibold">BOUDA - Ondřej Bouška</h3>
@@ -73,11 +73,11 @@ export default function WeAre(props: Props) {
           <Image
             src="/assets/images/studio/mini/jara.jpg"
             alt="Jaroslav Kučera"
-            className={`mb-4 aspect-square w-full rounded-full object-cover ${
-              isVisible1 ? "animate-fade-right" : "opacity-0"
+            className={`mx-auto mb-4 aspect-square w-1/2 rounded-full object-cover text-center ${
+              isVisible2 ? "animate-fade-right" : "opacity-0"
             }`}
-            width={300}
-            height={300}
+            width={800}
+            height={800}
             loading="lazy"
           />
           <h3 className="mb-2 text-xl font-semibold">Jaroslav Kučera</h3>
