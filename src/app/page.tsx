@@ -49,9 +49,17 @@ export default function Home() {
           </div>
           <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
             <div className="flex items-center justify-between">
-              <h3 className="text-xl font-semibold">Phone</h3>
+              <h3 className="text-xl font-semibold">Telefon</h3>
               <div className="text-lg font-medium">
                 <a href="tel:+420731262744">+420 731 262 744</a>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
+            <div className="flex items-center justify-between">
+              <h3 className="text-xl font-semibold">Adresa</h3>
+              <div className="text-lg font-medium">
+                Skalka 1858, Česká Třebová
               </div>
             </div>
           </div>
