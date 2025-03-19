@@ -2,19 +2,19 @@
 import React, { useState, useEffect } from "react";
 
 const images = [
-  `/assets/images/studio/mini/11.jpg`,
-  `/assets/images/studio/mini/2.jpg`,
-  `/assets/images/studio/mini/8.jpg`,
-  `/assets/images/studio/mini/9.jpg`,
-  `/assets/images/studio/mini/12.jpg`,
-  `/assets/images/studio/mini/14.jpg`,
-  `/assets/images/studio/mini/15.jpg`,
-  `/assets/images/studio/mini/16.jpg`,
-  `/assets/images/studio/mini/17.jpg`,
-  `/assets/images/studio/mini/18.jpg`,
-  `/assets/images/studio/mini/23.jpg`,
-  `/assets/images/studio/mini/26.jpg`,
-  `/assets/images/studio/mini/29.jpg`,
+  `/assets/images/studio/medium/11.jpg`,
+  `/assets/images/studio/medium/2.jpg`,
+  `/assets/images/studio/medium/8.jpg`,
+  `/assets/images/studio/medium/9.jpg`,
+  `/assets/images/studio/medium/12.jpg`,
+  `/assets/images/studio/medium/14.jpg`,
+  `/assets/images/studio/medium/15.jpg`,
+  `/assets/images/studio/medium/16.jpg`,
+  `/assets/images/studio/medium/17.jpg`,
+  `/assets/images/studio/medium/18.jpg`,
+  `/assets/images/studio/medium/23.jpg`,
+  `/assets/images/studio/medium/26.jpg`,
+  `/assets/images/studio/medium/29.jpg`,
 ];
 
 const Slideshow = () => {

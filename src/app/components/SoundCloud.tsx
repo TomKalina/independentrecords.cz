@@ -5,7 +5,7 @@ interface Props {}
 
 const SoundCloud: React.FC<Props> = ({}) => {
   return (
-    <Section>
+    <Section id="nasePrace" title="Naše práce">
       <iframe
         width="100%"
         height="450"
