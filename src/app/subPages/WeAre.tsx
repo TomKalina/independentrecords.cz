@@ -81,6 +81,24 @@ export default function WeAre(props: Props) {
             loading="lazy"
           />
           <h3 className="mb-2 text-xl font-semibold">Jaroslav Kučera</h3>
+          <p>
+            Muziku jsem měl rád odjakživa. Hledal jsem v ní radost, únik,
+            odvázání i pochopení - zkrátka ve mě vždy uměla probudit silné
+            pocity.
+          </p>
+          <br />
+          <p>
+            Věnuji se převážně rapu a textům obecně. Také tvořím beaty. Náběr,
+            mix a mastering je samozřejmostí. Mimo jiné řeším ve studiu
+            technické zázemí. Baví mě například výroba akustických designových
+            prvků.
+          </p>
+          <br />
+          <p>
+            Hudbu dělám srdcem a hlavně tak, aby mě bavila. Protože co mě
+            nebaví, je pro mě povinnost a povinností máme každý v životě už tak
+            dost, tak proč do toho tahat muziku? 😎
+          </p>
         </div>
       </div>
     </Section>

@@ -8,12 +8,6 @@ export default function Story(props: Props) {
     <SectionWithImage id="pribeh" title="Náš příběh">
       <p>
         Independent Records - nejen nahrávací studio, a nejen pro hudebníky.
-        Žijeme hudbou.
-      </p>
-      <br></br>
-      <p className="text-left">
-        Těchto pár řádků bude pro ty, které zajímá, jaká byla naše cesta, která
-        nás dovedla až k tomu, co děláme teď.
       </p>
       <br></br>
       <p className="text-left">
@@ -35,22 +29,22 @@ export default function Story(props: Props) {
       <br></br>
       <p className="text-left">
         Myšlenka o založení opravdového nahrávacího studia začala vznikat už
-        spoustu let zpátky, ale realizovat se začala ve chvíli, kdy jsme si
+        spoustu let zpátky. Realizovat se ale začala ve chvíli, kdy jsme si
         uvědomili, že bychom se v životě rádi posunuli, něco vybudovali a začali
         se věnovat tomu, co nás skutečně baví. Myšlenku jsme začali rozvíjet,
-        zabrali jsme a po dvou letech vybudovali to, co jsme vždy chtěli. Pod
-        záštitou pardubického podnikatelského inkubátoru{" "}
-        <a
-          href="https://p-pink.cz/"
-          target="_blank"
-          className="text-pink-500 hover:text-sky-100"
-        >
-          P-PINK
-        </a>{" "}
-        jsme vybudovali svoje vlastní, hudební a nahrávací studio.
+        zabrali jsme a po dvou letech vybudovali to, co jsme vždy chtěli. Naše
+        vlastní nahrávací studio.
       </p>
       <br></br>
-      <p>Děkujeme všem za podporu.</p>
+      <p className="text-left">
+        Místo, kde si dovolujeme žít vlastní sen a pomáháme ostatním realizovat
+        ten jejich.
+      </p>
+      <br></br>
+      <p>
+        Děkujeme všem za podporu. A nejvíc děkujeme těm, kteří říkali, že to
+        nezvládneme!
+      </p>
     </SectionWithImage>
   );
 }
