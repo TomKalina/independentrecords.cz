@@ -18,17 +18,15 @@ export default function Home() {
     <>
       <Loading />
       <Slideshow />
-      <section className={classNames("bg-white px-4 py-16")}>
+      {/* <section className={classNames("bg-white px-4 py-16")}>
         <div className=" container ">
           <div className="mb-12 text-center">
             <h1 className="mb-4 text-5xl font-bold">
               Independent Records - Nahrávací studio Česká Třebová
             </h1>
-            {/* {children} */}
           </div>
         </div>
-      </section>
-
+      </section> */}
       <Services />
       <SoundCloud />
       <Story />
