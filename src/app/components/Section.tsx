@@ -22,7 +22,7 @@ export function Section({
     <section
       id={id}
       className={classNames(
-        "bg-white px-4 py-16",
+        "scroll-mt-menu bg-white px-4 py-16",
         animate && (isVisible1 ? animate : "opacity-0"),
       )}
       ref={ref1}

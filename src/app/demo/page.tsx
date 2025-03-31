@@ -47,7 +47,7 @@ export default function page(props: Props) {
           </div>
         </div>
       </section>
-      <section id="aboutus" className="bg-gray-500 py-16">
+      <section id="aboutus" className="bg-black py-16">
         <div className="container mx-auto flex flex-col items-center justify-between md:flex-row">
           <div className="mb-8 md:mb-0 md:w-1/2">
             <img
