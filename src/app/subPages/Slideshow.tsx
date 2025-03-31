@@ -4,11 +4,11 @@ import React, { useState, useEffect } from "react";
 const images = [
   `/assets/images/studio/medium/11.jpg`,
   `/assets/images/studio/medium/9.jpg`,
-  `/assets/images/studio/medium/12.jpg`,
+  `/assets/images/studio/medium/27.jpg`,
   `/assets/images/studio/medium/15.jpg`,
   `/assets/images/studio/medium/17.jpg`,
+  `/assets/images/studio/medium/18.jpg`,
   `/assets/images/studio/medium/16.jpg`,
-
 ];
 
 const Slideshow = () => {
