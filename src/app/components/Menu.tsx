@@ -42,8 +42,8 @@ export default function Menu(props: Props) {
 
   return (
     <>
-      <nav className="hidden justify-center sm:hidden md:flex md:flex-grow">
-        <ul className="flex justify-center space-x-4 ">
+      <nav className="hidden justify-end sm:hidden md:flex md:flex-grow">
+        <ul className="flex justify-end space-x-4">
           {menu.map((item) => (
             <Item key={item.href} href={item.href}>
               {item.label}
