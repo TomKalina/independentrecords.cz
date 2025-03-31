@@ -12,6 +12,7 @@ import classNames from "classnames";
 import { title } from "process";
 import Loading from "@/app/subPages/Loading";
 import SoundCloud from "@/app/components/SoundCloud";
+import Review from "@/app/subPages/Review";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       <Services />
       <SoundCloud />
       <Equipment />
+      {/* <Review /> */}
       <Section id="kontakty" title="Kontakt">
         <div className="mx-auto mt-8 max-w-md space-y-4">
           <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
