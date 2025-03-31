@@ -27,10 +27,10 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-      <Services />
-      <SoundCloud />
       <Story />
       <WeAre />
+      <Services />
+      <SoundCloud />
       <Equipment />
       <Section id="kontakty" title="Kontakt">
         <div className="mx-auto mt-8 max-w-md space-y-4">
