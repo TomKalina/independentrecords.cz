@@ -9,7 +9,7 @@ const testimonials = [
     name: "The Excited",
     year: "2025",
     location: "Česká Třebová",
-    text: ¨Práce u kluků byla pro nás jednoznačným přínosem. Přesto, že jsme po minulých zkušenostech z různých nahrávacích studií byli z prvu takzvaně "nesví", už z první konzultační porady jsme si byli jistí že tohle je pro nás ta cesta. Kluci ve studiu ví co dělají a snaží se i zdokonalovat, což jsme po většinu studií neviděli.. Co bychom tak mohli vypíchnout? Super práce se zvukem bicích,snímání kytar i zpěvů, zkrátka komplexní profesionalita. Jo a abych nezapomněl super káva a přátelský přístup. Kdo nezkusí neví, ale já vím, že my se sem určitě vrátíme!¨
+    text: `Práce u kluků byla pro nás jednoznačným přínosem. Přesto, že jsme po minulých zkušenostech z různých nahrávacích studií byli z prvu takzvaně "nesví", už z první konzultační porady jsme si byli jistí že tohle je pro nás ta cesta. Kluci ve studiu ví co dělají a snaží se i zdokonalovat, což jsme po většinu studií neviděli.. Co bychom tak mohli vypíchnout? Super práce se zvukem bicích,snímání kytar i zpěvů, zkrátka komplexní profesionalita. Jo a abych nezapomněl super káva a přátelský přístup. Kdo nezkusí neví, ale já vím, že my se sem určitě vrátíme!`
   },
   {
     name: "Jakub Kopřiva",
