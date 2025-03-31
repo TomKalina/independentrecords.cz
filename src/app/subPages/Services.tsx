@@ -16,31 +16,39 @@ export default function Services(props: Props) {
       }
     >
       <p className="my-7">
-        U nás v Independent Records se snažíme maximálně vyhovět
-        zákazníkovi/muzikantovi, ať už z pohledu tvorby, tak časové flexibility.
+        U nás v Independent Records se snažíme zákazníkovi maximálně vyhovět - ať už z pohledu tvorby, tak časové flexibility. Nelimituje nás ani hudební žánr, se kterým k nám dorazíte. Jsme maximálně otevření a chceme ukázat
       </p>
       <div className="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
         <div className="mx-auto grid w-full grid-cols-1 gap-6 lg:grid-cols-4">
           <Box
             title="Nahrávání"
-            text=""
+            text="500CZK/hodina (20€)"
             src="/assets/images/studio/mini/4.jpg"
           />
-          <Box title="Mixing" text="" src="/assets/images/studio/mini/19.jpg" />
+          <Box
+            title="Mixing"
+            text="2 000CZK/skladba (80€)"
+            src="/assets/images/studio/mini/19.jpg"
+          />
           <Box
             title="Mastering"
-            text=""
+            text="500CZK/skladba (20€)"
             src="/assets/images/studio/mini/28.jpg"
           />
           <Box
             title="Produkční služby"
-            text=""
+            text="Na vyžádání"
             src="/assets/images/studio/mini/21.jpg"
           />
         </div>
         <p className="text-center">
-          Nacenění služeb studia aktuálně probíhá - pro konkrétní poptávku nás
-          prosím kontaktujte e-mailem nebo telefonicky.
+        Mix skladeb nahraných v domácím nebo jiném nahrávacím studiu: 4 000 CZK/skladba (160 €)
+        Mastering/Remastering skladeb smíchaných v domácím nebo jiném nahrávacím studiu: od 1000 CZK/skladba (40 €)
+        </p>
+        <p className="text-center">
+        Ačkoli se jako nahrávací studio zaměřujeme primárně na služby a aktivity týkající se produkování hudebních děl, dokážeme pracovat se zvukem obecně.
+        Pokud se zaměřujete spíše mluvené slovo, podcasty apod.. i to je součástí portfolia našeho studia.
+        Ať už je tedy Vaše zaměření jakékoli, prostředí našeho studia a jeho personál Vám vyjde vždy maximálně vstříc. Kontaktujte nás e-mialem nebo telefonicky
         </p>
       </div>
     </Section>
