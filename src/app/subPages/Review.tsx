@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Jakub Řikovský",
-    year: "2023",
+    name: "The Excited",
+    year: "2025",
     location: "Moravská Třebová",
     text: "Rozhodně bych vyzdvihl na PINKaka individuální přístup ke každému projektu, ochotu pomoc, poradit a fantastické lidi, kteří se o PINKaka starají, ale i účastní.",
   },
