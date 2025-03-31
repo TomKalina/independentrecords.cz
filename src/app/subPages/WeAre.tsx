@@ -39,7 +39,7 @@ export default function WeAre(props: Props) {
             height={800}
             loading="lazy"
           />
-          <h3 className="mb-2 text-xl font-semibold">BOUDA - Ondřej Bouška</h3>
+          <h3 className="mb-2 text-xl font-semibold">Ondřej Bouška</h3>
           <p>
             S hudbou jsem vyrůstal odmala. V rodině, kde se pravidelně hrálo na
             kytaru, na klavír a zpívalo to vlastně ani jinak nejde 😊

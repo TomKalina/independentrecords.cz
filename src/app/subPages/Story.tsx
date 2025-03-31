@@ -42,8 +42,7 @@ export default function Story(props: Props) {
       </p>
       <br></br>
       <p>
-        Děkujeme všem za podporu. A nejvíc děkujeme těm, kteří říkali, že to
-        nezvládneme!
+        Děkujeme všem za podporu a za možnost věnovat se tomu, co nás opravdu baví!
       </p>
     </SectionWithImage>
   );

@@ -41,11 +41,12 @@ export default function Services(props: Props) {
             src="/assets/images/studio/mini/21.jpg"
           />
         </div>
-        <p className="text-center">
+        <p className="text-left">
         Mix skladeb nahraných v domácím nebo jiném nahrávacím studiu: 4 000 CZK/skladba (160 €)
         Mastering/Remastering skladeb smíchaných v domácím nebo jiném nahrávacím studiu: od 1000 CZK/skladba (40 €)
         </p>
-        <p className="text-center">
+        <br></br>
+        <p className="text-left">
         Ačkoli se jako nahrávací studio zaměřujeme primárně na služby a aktivity týkající se produkování hudebních děl, dokážeme pracovat se zvukem obecně.
         Pokud se zaměřujete spíše mluvené slovo, podcasty apod.. i to je součástí portfolia našeho studia.
         Ať už je tedy Vaše zaměření jakékoli, prostředí našeho studia a jeho personál Vám vyjde vždy maximálně vstříc. Kontaktujte nás e-mialem nebo telefonicky
