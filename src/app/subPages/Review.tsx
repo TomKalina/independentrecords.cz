@@ -61,7 +61,7 @@ export default function Review() {
           <button
             key={i}
             onClick={() => setIndex(i)}
-            className={`h-3 w-3 rounded-full ${index === i ? "bg-primary" : "bg-secondary"}`}
+            className={`h-3 w-3 rounded-full ${index === i ? "bg-secondary" : "bg-primary"}`}
           ></button>
         ))}
       </div>

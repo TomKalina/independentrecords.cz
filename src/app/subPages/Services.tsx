@@ -11,7 +11,7 @@ export default function Services(props: Props) {
       animate={false}
       title={
         <>
-          Služby a <span className="text-primary">vybavení</span>
+          Služby a <span className="text-primary">ceník</span>
         </>
       }
     >
@@ -22,7 +22,7 @@ export default function Services(props: Props) {
       <div className="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
         <div className="mx-auto grid w-full grid-cols-1 gap-6 lg:grid-cols-4">
           <Box
-            title="Nahrávací den"
+            title="Nahrávání"
             text=""
             src="/assets/images/studio/mini/4.jpg"
           />
