@@ -39,7 +39,6 @@ export default function Menu(props: Props) {
       </li>
     );
   }
-
   return (
     <>
       <nav className="hidden justify-end sm:hidden md:flex md:flex-grow">

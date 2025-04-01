@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="icon" href="assets/images/favicon.png" />
+        <link rel="icon" type="icon" href="favicon_io/favicon.ico" />
         <title>Independent Records - Nahrávací studio Česká Třebová</title>
       </head>
 
