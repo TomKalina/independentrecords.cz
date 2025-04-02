@@ -32,12 +32,12 @@ export default function Services(props: Props) {
           />
           <Box
             title="Mixing"
-            text="2 000 CZK/skladba (80€)"
+            text="2 000 CZK/skladba (80€)*"
             src="/assets/images/studio/mini/19.jpg"
           />
           <Box
             title="Mastering"
-            text="500 CZK/skladba (20€)"
+            text="500 CZK/skladba (20€)**"
             src="/assets/images/studio/mini/28.jpg"
           />
           <Box
@@ -47,11 +47,11 @@ export default function Services(props: Props) {
           />
         </div>
         <p className="text-left">
-        Mix skladeb nahraných v domácím nebo jiném nahrávacím studiu: 4 000 CZK/skladba (160 €)
+        *Mix skladeb nahraných v domácím nebo jiném nahrávacím studiu: 4 000 CZK/skladba (160 €)
         </p>
         <br></br>
         <p className="text-left">
-        Mastering/Remastering skladeb smíchaných v domácím nebo jiném nahrávacím studiu: od 1 000 CZK/skladba (40 €)
+        **Mastering/Remastering skladeb smíchaných v domácím nebo jiném nahrávacím studiu: od 1 000 CZK/skladba (40 €)
         </p>
         <br></br>
         <p className="text-left">
