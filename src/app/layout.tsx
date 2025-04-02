@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Independent Records",
-  description: "Web nahrávací společnosti Independent Records",
+  description: "Web nahrávacího studia Independent Records",
 };
 
 export default function RootLayout({

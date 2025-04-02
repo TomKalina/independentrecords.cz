@@ -7,7 +7,8 @@ interface Props {}
 
 const menu = [
   { href: "#pribeh", label: "Náš příběh" },
-  { href: "#sluzby", label: "Služby a vybavení" },
+  { href: "#sluzby", label: "Služby a ceník" },
+  { href: "#sluzby", label: "Reference" },
   { href: "#vybaveni", label: "Vybavení studia" },
   { href: "#kontakty", label: "Kontakt" },
 ];
