@@ -33,7 +33,7 @@ export default function Home() {
       <Services />
       <SoundCloud />
       <Equipment />
-      {/* <Review /> */}
+      <Review />
       <Section id="kontakty" title="Kontakt">
         <div className="mx-auto mt-8 max-w-md space-y-4">
           <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
