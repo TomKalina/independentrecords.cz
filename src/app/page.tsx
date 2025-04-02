@@ -31,8 +31,8 @@ export default function Home() {
       <Story />
       <WeAre />
       <Services />
-      <SoundCloud />
       <Review />
+      <SoundCloud />
       <Equipment />
       <Section id="kontakty" title="Kontakt">
         <div className="mx-auto mt-8 max-w-md space-y-4">

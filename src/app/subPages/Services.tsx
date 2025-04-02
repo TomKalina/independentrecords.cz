@@ -15,9 +15,13 @@ export default function Services(props: Props) {
         </>
       }
     >
-      <p className="my-7">
+      <p className="text-left">
         U nás v Independent Records se snažíme zákazníkovi maximálně vyhovět - ať už z pohledu tvorby, tak časové flexibility. Nelimituje nás ani hudební žánr, se kterým k nám dorazíte.
         Stačí se jen ozvat - ať už telefonicky, na e-mail nebo přes sociální sítě a domluvit si s námi schůzku.
+      </p>
+      <br></br>
+      <p className="text-left font-bold">
+        ÚVODNÍ SCHŮZKA K POTENCIÁLNÍ SPOLUPRÁCI JE VŽDY ZDARMA
       </p>
       <div className="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
         <div className="mx-auto grid w-full grid-cols-1 gap-6 lg:grid-cols-4">
@@ -46,7 +50,7 @@ export default function Services(props: Props) {
         Mix skladeb nahraných v domácím nebo jiném nahrávacím studiu: 4 000 CZK/skladba (160 €)
         </p>
         <br></br>
-        <p>
+        <p className="text-left">
         Mastering/Remastering skladeb smíchaných v domácím nebo jiném nahrávacím studiu: od 1 000 CZK/skladba (40 €)
         </p>
         <br></br>
