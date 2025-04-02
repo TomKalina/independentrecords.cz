@@ -26,6 +26,7 @@ export default function Review() {
   return (
     <div className="mx-auto w-full max-w-4xl px-4 py-10 text-center">
       <h2 className="mb-1 text-5xl font-bold md:text-primary">Reference od našich klientů</h2>
+      <br></br>
       <div className="relative h-52 md:h-48">
         <AnimatePresence mode="wait">
           <motion.div
