@@ -56,7 +56,7 @@ export default function Services(props: Props) {
         <br></br>
         <p className="text-left">
         Ačkoli se jako nahrávací studio zaměřujeme primárně na služby a aktivity týkající se produkování hudebních děl, dokážeme pracovat se zvukem obecně.
-        Pokud se zaměřujete spíše mluvené slovo, podcasty apod.. i to je součástí portfolia našeho studia.
+        Pokud se zaměřujete spíše mluvené slovo, podcasty apod.. i to je součástí portfolia produkčních služeb.
         Ať už je tedy Vaše zaměření jakékoli, prostředí našeho studia a jeho personál Vám vyjde vždy maximálně vstříc.
         </p>
       </div>
