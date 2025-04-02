@@ -56,7 +56,7 @@ export default function Equipment(props: Props) {
 
         <div className="md:w-1/2">
           <h2 className="mb-4 text-5xl font-bold text-white">
-            Vybavení <span className="text-primary">studia</span>
+            Vybavení studia
           </h2>
           <ol className="mb-10 mt-5 list-outside">
             <MyLi number={1}>Počítač</MyLi>

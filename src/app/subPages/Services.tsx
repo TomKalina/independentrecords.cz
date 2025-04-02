@@ -10,9 +10,9 @@ export default function Services(props: Props) {
       id="sluzby"
       animate={false}
       title={
-        <>
-          Služby a ceník
-        </>
+        <h2 className="mb-4 text-5xl font-bold text-primary">
+        Služby a ceník
+      </h2>
       }
     >
       <p className="text-left">
