@@ -29,6 +29,28 @@ export default function Footer(props: Props) {
             />
           </a>
         </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=61567338632699">
+            <Image
+              src="/assets/images/social_icons/facebook.png"
+              alt="Facebook"
+              className="h-10 w-10"
+              width={512}
+              height={512}
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://soundcloud.com/independentrecordsstudio">
+            <Image
+              src="/assets/images/social_icons/soundcloud.png"
+              alt="Soundcloud"
+              className="h-10 w-10"
+              width={512}
+              height={512}
+            />
+          </a>
+        </li>
         {/* <li>
           <a href="#">
             <img
