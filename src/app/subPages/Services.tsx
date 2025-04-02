@@ -20,7 +20,7 @@ export default function Services(props: Props) {
         Stačí se jen ozvat - ať už telefonicky, na e-mail nebo přes sociální sítě a domluvit si s námi schůzku.
       </p>
       <br></br>
-      <p className="text-left font-bold">
+      <p className="text-center font-bold text-primary">
         ÚVODNÍ SCHŮZKA K POTENCIÁLNÍ SPOLUPRÁCI JE VŽDY ZDARMA
       </p>
       <div className="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
