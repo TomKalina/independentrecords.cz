@@ -14,7 +14,7 @@ export default function SectionWithImage({
     <section id={id} className="scroll-mt-menu bg-white py-16">
       <div className="container mx-auto flex flex-col items-center justify-between md:flex-row">
         <div className="mb-8 text-center md:mb-0 md:w-1/2 md:text-left">
-          <h2 className="mb-4 text-5xl font-bold">{title}</h2>
+          <h2 className="text-primary mb-4 text-5xl font-bold">{title}</h2>
           {children}
         </div>
 

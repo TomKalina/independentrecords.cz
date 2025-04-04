@@ -29,7 +29,7 @@ export function Section({
     >
       <div className="testimonials container mx-auto max-w-screen-xl px-4">
         <div className="mb-12 text-center lg:mb-20">
-          <h2 className="mb-4 text-5xl font-bold">{title}</h2>
+          <h2 className="mb-4 text-5xl font-bold text-primary">{title}</h2>
           {children}
         </div>
       </div>
