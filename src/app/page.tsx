@@ -37,13 +37,13 @@ export default function Home() {
       <Section id="kontakty" title="Kontakt">
         <div className="mx-auto mt-8 max-w-md space-y-4">
           <div className="rounded-lg bg-white p-6 shadow-lg dark:bg-gray-900 dark:text-gray-100">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-wrap items-center justify-between whitespace-normal break-words">
               <h3 className="text-xl font-semibold">Email</h3>
               <a
-                href="mailto:independentrecords@protonmail.com"
-                className="text-lg font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
+              href="mailto:independentrecords@protonmail.com"
+              className="text-lg font-medium text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300"
               >
-                independentrecords@protonmail.com
+              independentrecords@protonmail.com
               </a>
             </div>
           </div>
