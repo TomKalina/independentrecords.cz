@@ -9,6 +9,7 @@ const menu = [
   { href: "#pribeh", label: "Náš příběh" },
   { href: "#sluzby", label: "Služby a ceník" },
   { href: "#vybaveni", label: "Vybavení studia" },
+  { href: "#reference", label: "Reference" },
   { href: "#kontakty", label: "Kontakt" },
 ];
 

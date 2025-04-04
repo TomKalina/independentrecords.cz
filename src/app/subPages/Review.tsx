@@ -9,7 +9,7 @@ const testimonials = [
     name: "The Excited",
     year: "2025",
     genre: "Big-Beat Pop",
-    text: `Práce u kluků byla pro nás jednoznačným přínosem. Přesto, že jsme po minulých zkušenostech z různých nahrávacích studií byli z prvu takzvaně "nesví", už z první konzultační porady jsme si byli jistí že tohle je pro nás ta cesta. Kluci ve studiu ví co dělají a snaží se zdokonalovat, což jsme po většinu studií neviděli.. Co bychom tak mohli vypíchnout? Super práce se zvukem bicích,snímání kytar i zpěvů, zkrátka komplexní profesionalita. Jo a abych nezapomněl super káva a přátelský přístup. Kdo nezkusí, neví - ale já vím, že my se sem určitě vrátíme!`
+    text: `Práce u kluků byla pro nás jednoznačným přínosem. Přesto, že jsme po minulých zkušenostech z různých nahrávacích studií byli z prvu takzvaně "nesví", už z první konzultační porady jsme si byli jistí že tohle je pro nás ta cesta. Kluci ve studiu ví co dělají a snaží se zdokonalovat, což jsme po většinu studií neviděli.. Co bychom tak mohli vypíchnout? Super práce se zvukem bicích,snímání kytar i zpěvů, zkrátka komplexní profesionalita. Jo a abych nezapomněl super káva a přátelský přístup. Kdo nezkusí, neví - ale já vím, že my se sem určitě vrátíme!`,
   },
 ];
 
@@ -24,8 +24,13 @@ export default function Review() {
   }, []);
 
   return (
-    <div className="mx-auto w-full max-w-4xl px-4 py-10 text-center">
-      <h2 className="mb-1 text-5xl font-bold md:text-primary">Reference od našich klientů</h2>
+    <div
+      className="scroll-mt-menu mx-auto w-full max-w-4xl px-4 py-10 text-center"
+      id="reference"
+    >
+      <h2 className="mb-1 text-5xl font-bold md:text-primary">
+        Reference od našich klientů
+      </h2>
       <br></br>
       <div className="relative h-52 md:h-48">
         <AnimatePresence mode="wait">
@@ -43,12 +48,8 @@ export default function Review() {
             <p className="font-semibold text-primary">
               {testimonials[index].name}
             </p>
-            <p className="text-sm text-gray-500">
-              {testimonials[index].genre}
-            </p>
-            <p className="text-sm text-gray-500">
-              {testimonials[index].year}
-            </p>
+            <p className="text-sm text-gray-500">{testimonials[index].genre}</p>
+            <p className="text-sm text-gray-500">{testimonials[index].year}</p>
           </motion.div>
         </AnimatePresence>
       </div>
