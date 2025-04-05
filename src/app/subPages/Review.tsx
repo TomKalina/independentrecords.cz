@@ -25,7 +25,7 @@ export default function Review() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % testimonials.length);
-    }, 5000); // 5 sekund
+    }, 15000); // 15 sekund
     return () => clearInterval(interval);
   }, []);
 
@@ -61,6 +61,7 @@ export default function Review() {
       </div>
       <div className="mt-6 flex justify-center gap-2">
         {testimonials.map((_, i) => (
+          <br></br>
           <button
             key={i}
             onClick={() => setIndex(i)}
