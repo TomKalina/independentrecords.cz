@@ -25,7 +25,7 @@ export default function Review() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % testimonials.length);
-    }, 15000); // 15 sekund
+    }, 10000); // 10 sekund
     return () => clearInterval(interval);
   }, []);
 
@@ -59,7 +59,7 @@ export default function Review() {
           </motion.div>
         </AnimatePresence>
       </div>
-      <div className="mt-8 flex justify-center gap-3">
+      <div className="mt-16 flex justify-center gap-3">
         {testimonials.map((_, i) => (
           <button
             key={i}
