@@ -59,7 +59,7 @@ export default function Review() {
           </motion.div>
         </AnimatePresence>
       </div>
-      <div className="mt-16 flex justify-center gap-3">
+      <div className="mt-23 flex justify-center gap-3">
         {testimonials.map((_, i) => (
           <button
             key={i}
