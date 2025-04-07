@@ -11,7 +11,7 @@ export default function WeAre(props: Props) {
   const isVisible1 = useIsVisible(ref1);
 
   const ref2 = React.useRef<HTMLDivElement>(null);
-  const isVisible2 = useIsVisible(ref1);
+  const isVisible2 = useIsVisible(ref2);
 
   return (
     <Section animate={false}>
