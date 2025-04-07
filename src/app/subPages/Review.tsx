@@ -37,8 +37,18 @@ export default function Review() {
       <h2 className="mb-1 text-5xl font-bold md:text-primary">
         Reference od našich klientů
       </h2>
-      <br></br>
-      <div className="relative h-52 md:h-48">
+      <br />
+      <div className="mt-6 flex justify-center gap-3">
+        {testimonials.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => setIndex(i)}
+            className={`h-3 w-3 rounded-full ${index === i ? "bg-secondary" : "bg-primary"}`}
+          ></button>
+        ))}
+      </div>
+      <br />
+      <div className="relative h-52 md:h-52">
         <AnimatePresence mode="wait">
           <motion.div
             key={index}
@@ -58,15 +68,6 @@ export default function Review() {
             <p className="text-sm text-gray-500">{testimonials[index].year}</p>
           </motion.div>
         </AnimatePresence>
-      </div>
-      <div className="mt-6 flex justify-center gap-3">
-        {testimonials.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setIndex(i)}
-            className={`h-3 w-3 rounded-full ${index === i ? "bg-secondary" : "bg-primary"}`}
-          ></button>
-        ))}
       </div>
     </div>
   );
