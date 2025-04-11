@@ -15,7 +15,7 @@ const testimonials = [
     name: "Jakub Kopřiva",
     year: "2025",
     genre: "Folk",
-    text: `Ve studiu jsem začal nahrávat svoje první album. Tahle zkušenost je pro mě nová a díky klukům z Independent Records jednoznačně pozitivní 🙂 Vážím si, že v tomhle pohodovém studiu mají pochopení pro můj styl, líbí se mi společný tvůrčí proces, flexibilita a velká ochota vždycky společně najít čas i způsob nahrávání.`,
+    text: `Ve studiu jsem začal nahrávat svoje první album. Tahle zkušenost je pro mě nová a díky klukům z Independent Records jednoznačně pozitivní! Vážím si, že v tomhle pohodovém studiu mají pochopení pro můj styl, líbí se mi společný tvůrčí proces, flexibilita a velká ochota vždycky společně najít čas i způsob nahrávání.`,
   },
 ];
 

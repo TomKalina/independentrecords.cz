@@ -6,6 +6,9 @@ interface Props {}
 const SoundCloud: React.FC<Props> = ({}) => {
   return (
     <Section id="nasePrace" title="Naše práce">
+      <p className="text-center">
+        Práci studia si bude moci již brzy vyslechnout v online Soundcloud přehrávači níže.
+      </p>
       <iframe
         width="100%"
         height="450"
