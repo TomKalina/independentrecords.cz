@@ -6,7 +6,7 @@ interface Props {}
 export default function Story(props: Props) {
   return (
     <SectionWithImage id="pribeh" title="Náš příběh">
-      <p>
+      <p className="text-left">
         Independent Records - nejen nahrávací studio, a nejen pro hudebníky.
       </p>
       <br></br>
@@ -41,8 +41,8 @@ export default function Story(props: Props) {
         ten jejich.
       </p>
       <br></br>
-      <p>
-        Děkujeme všem za podporu a za možnost věnovat se tomu, co nás opravdu baví!
+      <p className="text-left">
+        Děkujeme všem za podporu a děkujeme i těm, kteří říkali, že to nezvládneme. Děkujeme za možnost věnovat se tomu, co nás opravdu baví!
       </p>
     </SectionWithImage>
   );
