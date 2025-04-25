@@ -100,7 +100,7 @@ export default function Equipment(props: Props) {
             <MyLi>sE Electronics V Beat</MyLi>
             <MyLi>Fender Blues Junior</MyLi>
             <MyLi number={8}>Akustika</MyLi>
-            <MyLi>Akustické molitan Pyramida</MyLi>
+            <MyLi>Akustický molitan Pyramida</MyLi>
             <MyLi>Akustický molitan VELES-X Acoustic 50x50</MyLi>
             <MyLi>Akustický molitan PYRAMID Chocolate mkII</MyLi>
             <MyLi>Akustický molitan PYRAMID Komplet</MyLi>
