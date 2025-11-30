@@ -17,6 +17,12 @@ const testimonials = [
     genre: "Folk",
     text: `Ve studiu jsem začal nahrávat svoje první album. Tahle zkušenost je pro mě nová a díky klukům z Independent Records jednoznačně pozitivní! Vážím si, že v tomhle pohodovém studiu mají pochopení pro můj styl, líbí se mi společný tvůrčí proces, flexibilita a velká ochota vždycky společně najít čas i způsob nahrávání.`,
   },
+  {
+    name: "2Soul",
+    year: "2025",
+    genre: "Rap",
+    text: `Kluci z Independent Records jsou fakt radost, spolupráce s nimi jede hladce a profesionálně. Ve studiu panují komfortní podmínky a člověk se tam cítí hned jako doma. Jsou maximálně vstřícní a ochotní pomoct s každým detailem. A ceny? Ty jsou naprosto férové, přesně tak, jak mají být.`,
+  },
 ];
 
 export default function Review() {
