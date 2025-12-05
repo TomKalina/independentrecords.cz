@@ -20,8 +20,14 @@ const testimonials = [
   {
     name: "2Soul",
     year: "2025",
-    genre: "Rap",
+    genre: "Rap / Hip Hop",
     text: `Kluci z Independent Records jsou fakt radost, spolupráce s nimi jede hladce a profesionálně. Ve studiu panují komfortní podmínky a člověk se tam cítí hned jako doma. Jsou maximálně vstřícní a ochotní pomoct s každým detailem. A ceny? Ty jsou naprosto férové, přesně tak, jak mají být.`,
+  },
+  {
+    name: "Anička Zdráhalová",
+    year: "2025",
+    genre: "Sólo zpěv",
+    text: `Zpívání mě moc bavilo! Ondra byl milý, pomáhal mi a necítila jsem se tak nervózní. Výsledek je famózní (vůbec nechápu ty jeho zařízení) a jsem ráda co z toho vzniklo.`,
   },
 ];
 
