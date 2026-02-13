@@ -11,6 +11,7 @@ const menu = [
   { href: "#vybaveni", label: "Vybavení studia" },
   { href: "#reference", label: "Reference" },
   { href: "#kontakty", label: "Kontakt" },
+  { href: "#nasePrace", label: "Naše práce" },
 ];
 
 function Item(props: { href: string; children: React.ReactNode }) {
