@@ -10,8 +10,8 @@ const menu = [
   { href: "#sluzby", label: "Služby a ceník" },
   { href: "#vybaveni", label: "Vybavení studia" },
   { href: "#reference", label: "Reference" },
-  { href: "#kontakty", label: "Kontakt" },
   { href: "#nasePrace", label: "Naše práce" },
+  { href: "#kontakty", label: "Kontakt" },
 ];
 
 function Item(props: { href: string; children: React.ReactNode }) {
