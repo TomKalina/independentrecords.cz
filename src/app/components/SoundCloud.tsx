@@ -7,7 +7,7 @@ const SoundCloud: React.FC<Props> = ({}) => {
   return (
     <Section id="nasePrace" title="Naše práce">
       <p className="text-center font-bold text-primary">
-        Práci studia si budeš moci již brzy poslechnout tady na webu, v online Soundcloud přehrávači níže.
+        Níže v Soundcloud přehrávači si můžeš poslechnout výběr hotových věcí, které u nás v Independent Records vznikaly.
       </p>
       <br></br>
       <iframe
