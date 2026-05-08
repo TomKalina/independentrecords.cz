@@ -21,7 +21,7 @@ export default function Services(props: Props) {
       </p>
       <br></br>
       <p className="text-center font-bold text-primary">
-        ÚVODNÍ SCHŮZKA K POTENCIÁLNÍ SPOLUPRÁCI JE VŽDY ZDARMA
+        ÚVODNÍ SCHŮZKA K POTENCIÁLNÍ SPOLUPRÁCI JE VŽDY ZDARMA - AŤ UŽ NA MÍSTĚ, NEBO ONLINE
       </p>
       <div className="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
         <div className="mx-auto grid w-full grid-cols-1 gap-6 lg:grid-cols-4">
