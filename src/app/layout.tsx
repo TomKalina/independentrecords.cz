@@ -60,7 +60,7 @@ export default function RootLayout({
             <Menu />
           </div>
           <div className="bg-red-600 px-4 py-2 text-center text-sm font-semibold text-white">
-            Od 31.7.2026 bude studio z důvodu stěhování do nových prostor uzavřeno.
+            V termínu mezi 31.7.2026 a 31.10.2026 bude studio z důvodu stěhování do nových prostor uzavřeno. Všechny kontakty pro plánování budoucí spolupráce zůstávají aktivní!
           </div>
         </header>
         {children}
