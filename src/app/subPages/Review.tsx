@@ -29,6 +29,12 @@ const testimonials = [
     genre: "Sólo zpěv",
     text: `Zpívání mě moc bavilo! Ondra byl milý, pomáhal mi a necítila jsem se tak nervózní. Výsledek je famózní (vůbec nechápu ty jeho zařízení) a jsem ráda co z toho vzniklo.`,
   },
+  {
+    name: "Tylerko",
+    year: "2025",
+    genre: "Rap / Hip Hop",
+    text: `Nahrál jsem tady celé EP FIREBRIDGE a s prací kluků jsem maximálně spokojenej. Skvělý přístup, atmosféra a hlavně výsledek. Určitě doporučuju a rád se vrátím!`,
+  },
 ];
 
 export default function Review() {
