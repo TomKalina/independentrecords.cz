@@ -35,6 +35,12 @@ const testimonials = [
     genre: "Rap / Hip Hop",
     text: `Nahrál jsem tady celé EP FIREBRIDGE a s prací kluků jsem maximálně spokojenej. Skvělý přístup, atmosféra a hlavně výsledek. Určitě doporučuju a rád se vrátím!`,
   },
+  {
+    name: "Jiří Šmarda",
+    year: "2026",
+    genre: "Folk",
+    text: `Bylo to moje první samostatné nahrávání. Velice mě překvapilo, jak nám to společně šlo. Přístup vstřícný a přátelský. Úprava, byť dala Ondrovi zabrat, tak byla k mé spokojenosti. Děkuji.`,
+  },
 ];
 
 export default function Review() {
