@@ -1,4 +1,11 @@
 import * as React from "react";
+import { buildPageMetadata } from "@/lib/seo";
+
+export const metadata = buildPageMetadata({
+  path: "/demo",
+  title: "Demo šablony",
+  noIndex: true,
+});
 
 interface Props {}
 

@@ -1,14 +1,11 @@
 import "./globals.css";
-import type { Metadata } from "next";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import Image from "next/image";
 import Script from "next/script";
+import { buildRootLayoutMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Independent Records",
-  description: "Web nahrávacího studia Independent Records",
-};
+export const metadata = buildRootLayoutMetadata();
 
 export default function RootLayout({
   children,
@@ -17,13 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="cs">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="icon" href="favicon_io/favicon.ico" />
-        <title>
-          Independent Records - Nahrávací studio Česká Třebová
-        </title> {" "}
+      <body className="animate-fade">
         <Script id="smartsupp-chat" strategy="afterInteractive">
           {`
           var _smartsupp = _smartsupp || {};
@@ -41,9 +32,6 @@ export default function RootLayout({
           })(document);
         `}
         </Script>
-      </head>
-
-      <body className="animate-fade">
         <header className="sticky top-0 z-50 bg-black">
           <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
             <div className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -52,7 +40,7 @@ export default function RootLayout({
                   width={200}
                   height={100}
                   src="/logo/dlouhe-modra-bila.svg"
-                  alt="Logo"
+                  alt="Independent Records – logo nahrávacího studia"
                   className="mr-4 h-14 w-auto animate-jump-in"
                 />
               </a>
