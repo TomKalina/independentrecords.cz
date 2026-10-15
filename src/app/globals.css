@@ -16,6 +16,12 @@
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 .scroll-mt-menu {
   scroll-margin-top: 100px; /* výška tvého fixního menu + rezerva */
 }
